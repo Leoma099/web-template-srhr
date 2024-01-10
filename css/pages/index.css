@@ -9,14 +9,6 @@
   align-items: center;
 }
 
-/* this is about section */
-.about-section {
-}
-
-/* this is room-and-suite section */
-.room-and-suite-section {
-}
-
 /* this is service section */
 .service-section {
   background-color: #000000;
@@ -153,6 +145,9 @@
     display: none;
   }
   .img-logo {
+    display: none;
+  }
+  .mobile-view {
     display: none;
   }
 }
