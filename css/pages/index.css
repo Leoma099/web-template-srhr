@@ -1,4 +1,5 @@
-.header-banner-section {
+/* this is header section */
+.header-section {
   background: linear-gradient(#00000025, #000000a6),
     url("/assets/header-banner.jpg") center center;
   background-repeat: no-repeat;
@@ -7,24 +8,145 @@
   display: flex;
   align-items: center;
 }
-.map-wrapper {
-  max-width: 800px;
+
+/* this is about section */
+.about-section {
 }
-.google-map {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  width: 100%;
+
+/* this is room-and-suite section */
+.room-and-suite-section {
 }
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
+
+/* this is service section */
+.service-section {
+  background-color: #000000;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .service-sub-text {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .service-grid-column {
+    color: #ffffff; /* this is text color */
+  }
+
+  .service-img {
+    height: 300px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .service-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .section-grid-column img {
+  }
 }
-.footer-bottom .social-link-footer span a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
+
+/* this is dinning-event section */
+.dinning-event-section {
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  /* this is dinning section */
+  .dinning-section {
+    margin-bottom: 5px;
+  }
+
+  /* this is event section */
+  .event-section {
+    margin-top: 5px;
+  }
+}
+
+/* this is content section */
+.content-section {
+  background-color: #000000;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .content-sub-text {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content-img {
+    background-color: #ffffff;
+    margin-top: 50px;
+  }
+
+  .content-img img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .content-img .content-paragraph {
+    padding: 50px;
+  }
+}
+
+/* this is map section */
+.map-section {
+  position: relative;
+
+  content {
+    position: relative;
+  }
+
+  .map-sub-text {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .map-wrapper {
+    text-align: center;
+  }
+  .google-map {
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+  }
+
+  .map-btn {
+    text-align: center;
+  }
+}
+
+.footer-section {
+  background-color: #000000;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-bottom .social-link-footer span a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .btn-book-now {

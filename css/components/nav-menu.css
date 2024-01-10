@@ -11,7 +11,7 @@
 }
 
 .bg-color {
-  background: transparent;
+  background: #0000007a;
   transition: all 0.15s ease-in-out;
 }
 .bg-color.scrolled {
