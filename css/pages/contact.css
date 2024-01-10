@@ -1,0 +1,61 @@
+.header-banner-section {
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .social-link-footer span a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.offcanvas-body ul li a {
+  color: white;
+}
+@media screen and (min-width: 1280px) {
+  .btn-book-now {
+    display: none;
+  }
+  .img-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .offcanvas-body ul li a {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .img-logo-text {
+    display: none;
+  }
+  .footer-bottom {
+    display: grid;
+    text-align: center;
+  }
+  .footer-bottom .social-link-footer span a {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .offcanvas-body ul li a {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .book-now a {
+    display: none;
+  }
+  .second-img {
+    height: 500px;
+    overflow: hidden;
+  }
+}

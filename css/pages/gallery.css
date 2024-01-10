@@ -1,0 +1,92 @@
+.header-banner-section {
+  background: linear-gradient(#00000025, #000000da),
+    url("/assets/gallery/swimming-view.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.gallery-img {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.filter-tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.filter-tabs nav a {
+  text-decoration: none;
+  margin: 20px;
+  font-size: 1rem;
+  color: gray;
+  transition: color 0.15s ease-in-out;
+}
+
+.filter-tabs nav a:hover {
+  color: black;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .social-link-footer span a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.offcanvas-body ul li a {
+  color: white;
+}
+@media screen and (min-width: 1280px) {
+  .btn-book-now {
+    display: none;
+  }
+  .img-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .offcanvas-body ul li a {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .img-logo-text {
+    display: none;
+  }
+  .footer-bottom {
+    display: grid;
+    text-align: center;
+  }
+  .footer-bottom .social-link-footer span a {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .offcanvas-body ul li a {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .book-now a {
+    display: none;
+  }
+}

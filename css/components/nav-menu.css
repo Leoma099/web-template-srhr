@@ -1,0 +1,20 @@
+.sc-nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background: none;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-family: "EB Garamond", serif;
+}
+
+.bg-color {
+  background: transparent;
+  transition: all 0.15s ease-in-out;
+}
+.bg-color.scrolled {
+  background-color: black;
+  box-shadow: 0px 13px 33px -30px rgba(0, 0, 0, 0.43);
+}

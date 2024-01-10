@@ -1,0 +1,26 @@
+.sc-btn {
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  background: transparent;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+}
+.sc-btn-gold {
+  background-color: gold;
+  color: black;
+}
+.sc-btn-black {
+  background-color: black;
+  color: white;
+}
+.sc-btn-gray {
+  background-color: gainsboro;
+  color: black;
+}
+.sc-btn-white {
+  background-color: white;
+  color: black;
+}

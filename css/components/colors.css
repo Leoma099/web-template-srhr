@@ -1,0 +1,26 @@
+/* this is background color */
+.sc-bg-body-gold {
+  background-color: gold;
+}
+.sc-bg-body-black {
+  background-color: black;
+}
+.sc-bg-body-gray {
+  background-color: gainsboro;
+}
+.sc-bg-body-white {
+  background-color: white;
+}
+/* this is text color */
+.sc-text-gold {
+  color: gold;
+}
+.sc-text-black {
+  color: black;
+}
+.sc-text-gray {
+  color: gainsboro;
+}
+.sc-text-white {
+  color: white;
+}

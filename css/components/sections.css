@@ -1,0 +1,8 @@
+.sc-section {
+  padding: 80px;
+}
+@media screen and (max-width: 575px) {
+  .sc-section {
+    padding: 5px;
+  }
+}
