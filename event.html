@@ -21,8 +21,34 @@
     <link rel="stylesheet" href="/css/pages/event.css" />
   </head>
   <body>
+    <!-- this is loader section -->
+    <section class="loader-section">
+      <div class="loader-wrapper">
+        <div
+          class="container p-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          <div class="text-center sc-text-light-color">
+            <img
+              src="/assets/temporarily-logo.png"
+              class="img-fluid"
+              width="70"
+              alt=""
+            />
+            <img
+              src="/assets/temporarily-logo-text.png"
+              class="img-fluid"
+              width="200"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- this is navigation menu section -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-color">
+    <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color">
       <div class="container">
         <a class="navbar-brand" href="/index.html"
           ><img
@@ -77,7 +103,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="sc-nav-link" href="/room.html">Rooms</a>
+                <a class="sc-nav-link sc-text-white" href="/room.html">Rooms</a>
               </li>
               <li class="nav-item">
                 <a class="sc-nav-link sc-text-white" href="/dinning.html"
@@ -87,11 +113,6 @@
               <li class="nav-item">
                 <a class="sc-nav-link sc-text-white" href="/event.html"
                   >Events</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/gallery.html"
-                  >Gallery</a
                 >
               </li>
               <li class="nav-item">
@@ -116,102 +137,196 @@
       </div>
     </section>
 
-    <section class="sc-section">
-      <!-- this is room title paragraph section -->
-      <section class="room-title-paragraph-section">
-        <div class="container p-4">
-          <div class="text-center">
-            <h1>A warm, exquisite, practical and urban space.</h1>
-            <br />
-            <div class="col-md-8 offset-lg-2">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, perferendis harum corrupti consectetur,
-                reprehenderit impedit provident illo dolorum ducimus nihil
-                facere temporibus dicta fugit perspiciatis eum veritatis maiores
-                quo? Odit.
-              </p>
-            </div>
-          </div>
+    <!-- this is event section -->
+    <section class="sc-section event-section">
+      <div class="container p-4">
+        <!-- this is event sub text section -->
+        <div class="event-sub-text">
+          <h1>Your Business Event</h1>
         </div>
-      </section>
 
-      <!-- this is room meeting section -->
-      <section class="room-meeting-section">
-        <div class="container p-4">
-          <div class="row gx-5 align-items-center">
-            <div class="col-md-6 order-md-1">
-              <div class="room-meeting-img">
-                <img
-                  src="/assets/event/meeting-room.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+        <div class="event-flex-column">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="event-img">
+                <img src="/assets/event/venue.jpg" class="img-fluid" alt="" />
               </div>
             </div>
-            <div class="col-md-6 order-md-2">
-              <div class="mx-5">
-                <h1>Capacity of the room</h1>
-                <div>
-                  <span
-                    >Customize the room setup to your needs. Below we indicate
-                    the maximum capacities according to the type of setup.</span
-                  >
-                </div>
-                <hr />
-                <div class="my-4">
-                  <span><strong>School:</strong> 30 people</span>
-                </div>
-                <hr />
-                <div class="my-4">
-                  <span><strong>Theater:</strong> 40 people</span>
-                </div>
-                <hr />
-                <div class="my-4">
-                  <span><strong>Imperial:</strong> 22/45 people</span>
-                </div>
-                <hr />
-                <div class="my-4">
-                  <span><strong>Cocktail:</strong> 45 people</span>
+            <div class="col-md-6">
+              <div class="event-img">
+                <img src="/assets/event/event.jpg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+          <br />
+          <h1>Setting up your venue</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            adipisci. <br />
+            Fugit voluptatibus optio labore eius, eum repellat a iste sunt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is event proposal section -->
+    <section class="sc-section proposal-section">
+      <div class="container p-4">
+        <div class="proposal-sub-text">
+          <span><strong>REQUEST FOR PROPOSAL</strong></span>
+        </div>
+
+        <!-- this is proposal form -->
+        <div class="proposal-form">
+          <div class="card">
+            <div class="card-body">
+              <form action="">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* FIRST NAME</label>
+                      <input
+                        type="text"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* LAST NAME</label>
+                      <input
+                        type="text"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* PHONE NUMBER</label>
+                      <input
+                        type="text"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* EMAIL ADDRESS</label>
+                      <input
+                        type="text"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label"
+                        >* VENUE PREFERRENCE</label
+                      >
+                      <select
+                        name=""
+                        id=""
+                        class="form-select form-select-sm rounded-0 shadow-none"
+                      >
+                        <option selected disabled>SELECT ONE</option>
+                        <option value="2">OUTDOOR</option>
+                        <option value="3">INDOOR</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* TYPE OF EVENT</label>
+                      <select
+                        name=""
+                        id=""
+                        class="form-select form-select-sm rounded-0 shadow-none"
+                      >
+                        <option selected disabled>SELECT ONE</option>
+                        <option value="2">ANNIVERSARY</option>
+                        <option value="3">BIRTHDAY</option>
+                        <option value="4">BAPTISM</option>
+                        <option value="5">ENGAGEMENT</option>
+                        <option value="6">OTHERS</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* PREFERRED DATE</label>
+                      <input
+                        type="date"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label">* ALTERNATE DATE</label>
+                      <input
+                        type="date"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label"
+                        >* IS THE DATE FLEXIBLE</label
+                      >
+                      <select
+                        name=""
+                        id=""
+                        class="form-select form-select-sm rounded-0 shadow-none"
+                      >
+                        <option selected disabled>SELECT ONE</option>
+                        <option value="2">YES</option>
+                        <option value="3">NO</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="" class="form-label"
+                        >* NUMBER OF GUESTS</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="" class="form-label"
+                        >* PLEASE SHARE ANY ADDITIONAL EVENT DETAILS</label
+                      >
+                      <textarea
+                        name=""
+                        cols="30"
+                        rows="5"
+                        class="form-control form-control-sm rounded-0 shadow-none"
+                      ></textarea>
+                    </div>
+                  </div>
                 </div>
                 <br />
                 <div>
-                  <a class="sc-btn sc-btn-black" href="">Inquiry Now</a>
+                  <input type="checkbox" />
+                  <span
+                    >I AGREE TO RECEIVE PROMOTIONS/OFFERS FROM SUBIC RIVIERA
+                    HOTEL AND RESIDENCES</span
+                  >
                 </div>
-              </div>
+                <br />
+                <div>
+                  <a class="sc-btn sc-btn-black px-5" href="">SUBMIT</a>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-      </section>
-
-      <!-- this is room coffee section -->
-      <section class="room-coffee-section">
-        <div class="container p-4">
-          <div class="row gx-5 align-items-center">
-            <div class="col-md-6 order-md-2 mb-5">
-              <div class="room-meeting-img">
-                <img
-                  src="/assets/event/coffee-break.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="col-md-6 order-md-1">
-              <h1>Coffee breaks: That precious moment of relaxation</h1>
-              <br />
-              <div>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Molestias omnis non, earum iste officia nemo officiis in
-                  dolores tempore recusandae culpa aspernatur eveniet incidunt
-                  reprehenderit voluptatum velit assumenda aut ex.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </section>
 
     <!-- this is footer section -->
@@ -276,7 +391,7 @@
             </form>
           </div>
         </div>
-        <hr class="sc-bg-body-white" />
+        <hr />
         <div class="footer-bottom">
           <div class="social-link-footer sc-text-white mb-5">
             <span><a href="">Facebook</a></span> /
@@ -298,5 +413,6 @@
     <script src="/js/components/splide.js"></script>
     <script src="/js/plugins/jquery.min.js"></script>
     <script src="/js/plugins/scroll.js"></script>
+    <script src="/js/components/loder.js"></script>
   </body>
 </html>
