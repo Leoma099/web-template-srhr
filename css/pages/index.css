@@ -10,8 +10,6 @@
   text-align: center;
   position: relative;
 
-<<<<<<< HEAD
-=======
   .content {
     position: relative;
   }
@@ -41,8 +39,6 @@
     box-shadow: inset 400px 0 0 0 #ffffff;
   }
 }
-
->>>>>>> f678d9721b2cfb3614cf58c255cbaca3b654034a
 /* this is service section */
 .service-section {
   background-color: #000000;
