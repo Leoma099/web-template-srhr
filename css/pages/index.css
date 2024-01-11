@@ -1,4 +1,30 @@
-/* this is header section */
+.nav-section {
+  .nav-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  .nav-lang a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .nav-logo a img {
+    width: 200px;
+  }
+  .nav-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 25px;
+  }
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
 .header-section {
   background: linear-gradient(#00000000, #000000c4),
     url("/assets/header-banner.jpg") center center;
@@ -39,6 +65,41 @@
     box-shadow: inset 400px 0 0 0 #ffffff;
   }
 }
+
+.room-and-suite-section {
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+  .carousel-item {
+    height: 650px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.carousel-item::before {
+  content: "";
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+}
+
 /* this is service section */
 .service-section {
   background-color: #000000;
@@ -197,6 +258,17 @@
   .header-btn {
     display: none;
   }
+  .room-and-suite-section .carousel-item {
+    height: 300px;
+  }
+  .room-and-suite-section .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
   .img-logo-text {
     display: none;
   }
@@ -244,6 +316,9 @@
   }
   .content-section .content-img img {
     height: 400px;
+  }
+  .desktop-view {
+    display: none;
   }
 }
 
