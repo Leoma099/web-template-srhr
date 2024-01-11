@@ -18,3 +18,7 @@
   background-color: black;
   box-shadow: 0px 13px 33px -30px rgba(0, 0, 0, 0.43);
 }
+
+.offcanvas-body ul li a {
+  color: white;
+}

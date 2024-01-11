@@ -1,12 +1,43 @@
 /* this is header section */
 .header-section {
-  background: linear-gradient(#00000025, #000000a6),
+  background: linear-gradient(#00000000, #000000c4),
     url("/assets/header-banner.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
+  text-align: center;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+  .header-label {
+    color: #ffffff;
+  }
+  .header-label h1 {
+    font-size: 48px;
+  }
+  .header-btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    background-color: transparent;
+    display: inline-block;
+    letter-spacing: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: box-shadow 0.1s ease-in-out;
+  }
+  .header-btn a:hover {
+    color: #000000;
+    box-shadow: inset 400px 0 0 0 #ffffff;
+  }
 }
 
 /* this is about section */
@@ -157,7 +188,7 @@
   }
 }
 @media screen and (max-width: 575px) {
-  .availability-form {
+  .header-btn {
     display: none;
   }
   .img-logo-text {
