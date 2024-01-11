@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
 h1,
 h2,
@@ -7,7 +7,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "EB Garamond", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* h1 {
@@ -32,5 +32,5 @@ h6 {
 p,
 span,
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
