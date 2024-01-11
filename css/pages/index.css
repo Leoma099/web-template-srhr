@@ -32,16 +32,12 @@
     box-shadow: inset 0 0 0 0 #ffffff;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
-    transition: box-shadow 0.1s ease-in-out;
+    transition: color 0.45s, box-shadow 0.45s ease-in-out;
   }
   .header-btn a:hover {
     color: #000000;
     box-shadow: inset 400px 0 0 0 #ffffff;
   }
-}
-
-/* this is about section */
-.about-section {
 }
 
 /* this is room-and-suite section */

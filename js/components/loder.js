@@ -1,3 +1,3 @@
 setTimeout(function () {
-  $(".loader-wrapper").fadeIn(500).fadeOut(700);
-}, 1500);
+  $(".loader-wrapper").fadeOut(700);
+}, 150);
