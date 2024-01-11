@@ -207,4 +207,21 @@
     height: 500px;
     overflow: hidden;
   }
+  .festive-menu-section .festive-menu-sub-text {
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .festive-menu-section .festive-menu-sub-text p {
+    text-align: justify;
+  }
+
+  .article-section .article-one-paragraph {
+    margin-top: 50px;
+    text-align: justify;
+  }
+  .article-section .article-two-paragraph {
+    margin-top: 50px;
+    text-align: justify;
+  }
 }

@@ -177,6 +177,21 @@
   }
 }
 @media screen and (max-width: 575px) {
+  .header-section {
+    overflow-y: hidden;
+  }
+  .about-section {
+    overflow-x: hidden;
+  }
+  .dinning-event-section {
+    overflow-x: hidden;
+  }
+  .service-section {
+    overflow-x: hidden;
+  }
+  .content-section {
+    overflow-x: hidden;
+  }
   .header-btn {
     display: none;
   }
@@ -199,6 +214,34 @@
   }
   .book-now a {
     display: none;
+  }
+
+  .about-section .about-details {
+    margin-top: 50px;
+  }
+  .about-section .about-details p {
+    text-align: justify;
+  }
+  .service-section .service-sub-text p {
+    text-align: justify;
+  }
+  .dinning-event-section .dinning-sub-label {
+    margin-top: 50px;
+  }
+  .dinning-event-section .event-sub-label {
+    margin-top: 50px;
+  }
+  .content-section .content-sub-text p {
+    text-align: justify;
+  }
+  .content-section .content-img .content-paragraph {
+    padding: 20px;
+  }
+  .content-section .content-img .content-paragraph p {
+    text-align: justify;
+  }
+  .content-section .content-img img {
+    height: 400px;
   }
 }
 
