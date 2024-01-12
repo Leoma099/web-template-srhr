@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subic Riviera Hotel and Residences</title>
+    <link rel="icon" href="/assets/temporarily-logo.png" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/plugins/splide.min.css" />
+    <link rel="stylesheet" href="/css/pages/room.css" />
+    <link rel="stylesheet" href="/css/plugins/aos.min.css" />
+  </head>
+  <body>
+    <!-- this is loader section -->
+    <section class="loader-section">
+      <div class="loader-wrapper">
+        <div class="container p-4">
+          <div class="text-center d-lg-grid justify-content-center">
+            <div>
+              <img
+                src="/assets/temporarily-logo.png"
+                class="img-fluid"
+                width="100"
+                alt=""
+              />
+            </div>
+            <br />
+            <div>
+              <img
+                src="/assets/temporarily-logo-text.png"
+                class="img-fluid"
+                width="200"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- this is navigation menu section -->
+    <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"
+          ><img
+            class="img-logo-text"
+            src="/assets/temporarily-logo-text.png"
+            width="200"
+            alt="" />
+          <img
+            class="img-logo"
+            src="/assets/temporarily-logo.png"
+            width="50"
+            alt=""
+        /></a>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <button
+              class="navbar-toggler border-0 rounded-0 shadow-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="sc-text-white"
+                ><i class="fs-2 fas fa-bars"></i
+              ></span>
+            </button>
+          </div>
+          <div class="btn-book-now">
+            <div class="d-flex align-items-center">
+              <a class="sc-btn sc-btn-white" href="">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Subic Riviera Hotel and Residences
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/room.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/dinning.html"
+                  >Dining</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/event.html"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex align-items-center book-now">
+              <a class="sc-btn sc-btn-white" href="">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- this is navigation desktop view section -->
+    <nav class="nav-section fixed-top z-2 bg-color desktop-view">
+      <div class="nav-control">
+        <div class="nav-lang">
+          <a href="">ENG <i class="fa-solid fa-caret-down"></i></a>
+        </div>
+        <div class="nav-logo">
+          <a href="/index.html">
+            <img src="/assets/temporarily-logo-text.png" alt="" />
+          </a>
+        </div>
+        <div class="nav-btn">
+          <a class="sc-btn sc-btn-white" href="#">BOOK NOW</a>
+        </div>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li>
+            <a href="/room.html">ACCOMODATION</a>
+          </li>
+          <li>
+            <a href="/dinning.html">DINNING</a>
+          </li>
+          <li>
+            <a href="/meeting-and-event.html">MEETINGS & EVENTS</a>
+          </li>
+          <li>
+            <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
+          </li>
+          <li>
+            <a href="/about.html">ABOUT US</a>
+          </li>
+          <li>
+            <a href="/gallery.html">GALLERY</a>
+          </li>
+          <li>
+            <a href="/contact.html">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- this is header-section -->
+    <section class="sc-section header-section">
+      <div class="container p-4">
+        <div
+          class="header-sub-text"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          <h1>Accomodations</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is tabs filter section -->
+    <section class="filter-section sc-bg-body-gray">
+      <div class="container p-4">
+        <div class="filter-tabs">
+          <nav>
+            <a href="">Rooms</a> | <a href="">Suites</a> | <a href="">All</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is room-section -->
+    <section class="sc-section room-section">
+      <div class="container p-4">
+        <div class="room-sub-text">
+          <span><strong>ROOMS</strong></span>
+        </div>
+
+        <!-- this is room-img -->
+        <div class="room-flex-column">
+          <div class="row">
+            <div class="col-md-4">
+              <div
+                class="room-img"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+              >
+                <img
+                  src="/assets/rooms-and-suites/double-bed.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <br />
+              <div
+                class="room-detials"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="500"
+              >
+                <h3>Double Bed</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorum accusantium neque, minus aperiam quam nisi eius
+                  recusandae molestias libero voluptatem?
+                </p>
+                <hr />
+                <div>
+                  <a class="sc-btn sc-btn-black" href="">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="room-img"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="250"
+              >
+                <img
+                  src="/assets/rooms-and-suites/single-bed.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <br />
+              <div
+                class="room-detials"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="700"
+              >
+                <h3>Single Bed</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorum accusantium neque, minus aperiam quam nisi eius
+                  recusandae molestias libero voluptatem?
+                </p>
+                <hr />
+                <div>
+                  <a class="sc-btn sc-btn-black" href="">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="room-img"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="450"
+              >
+                <img
+                  src="/assets/rooms-and-suites/queen-bed.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <br />
+              <div
+                class="room-detials"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="900"
+              >
+                <h3>Queen Size</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorum accusantium neque, minus aperiam quam nisi eius
+                  recusandae molestias libero voluptatem?
+                </p>
+                <hr />
+                <div>
+                  <a class="sc-btn sc-btn-black" href="">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is suite-section -->
+    <section class="sc-section suite-section">
+      <div class="container p-4">
+        <div class="suite-sub-text">
+          <span><strong>SUITES</strong></span>
+        </div>
+
+        <!-- this is suite-img -->
+        <div class="suite-flex-column">
+          <div class="row">
+            <div class="col-md-4">
+              <div
+                class="suite-img"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+              >
+                <img
+                  src="/assets/rooms-and-suites/double-bed.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <br />
+              <div
+                class="suite-details"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="500"
+              >
+                <h3>Junior Suites</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorum accusantium neque, minus aperiam quam nisi eius
+                  recusandae molestias libero voluptatem?
+                </p>
+                <hr />
+                <div>
+                  <a class="sc-btn sc-btn-black" href="">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="suite-img"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="250"
+              >
+                <img
+                  src="/assets/rooms-and-suites/single-bed.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <br />
+              <div
+                class="suite-details"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="700"
+              >
+                <h3>Executive Suites</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorum accusantium neque, minus aperiam quam nisi eius
+                  recusandae molestias libero voluptatem?
+                </p>
+                <hr />
+                <div>
+                  <a class="sc-btn sc-btn-black" href="">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="suite-img"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="450"
+              >
+                <img
+                  src="/assets/rooms-and-suites/queen-bed.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <br />
+              <div
+                class="suite-details"
+                data-aos="fade-down"
+                data-aos-duration="900"
+                data-aos-once="true"
+                data-aos-delay="900"
+              >
+                <h3>Presidential Suites</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorum accusantium neque, minus aperiam quam nisi eius
+                  recusandae molestias libero voluptatem?
+                </p>
+                <hr />
+                <div>
+                  <a class="sc-btn sc-btn-black" href="">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is amenities section -->
+    <section class="sc-section amenities-section">
+      <div class="container p-4">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="amenities-sub-label">
+              <h1>Amenities to help you enjoy like never before</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+                inventore?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="amenities-icon">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <span><i class="fas fa-wifi"></i> WIFI</span>
+                </div>
+                <div class="col-md-4">
+                  <span
+                    ><i class="fa-solid fa-temperature-three-quarters"></i> AIR
+                    CONDITIONING</span
+                  >
+                </div>
+                <div class="col-md-4">
+                  <span
+                    ><i class="fa-solid fa-square-parking"></i> PAID
+                    PARKING</span
+                  >
+                </div>
+                <div class="col-md-4">
+                  <span
+                    ><i class="fa-solid fa-water-ladder"></i> SWIMMING
+                    POOL</span
+                  >
+                </div>
+                <div class="col-md-4">
+                  <span><i class="fa-solid fa-bus"></i> SHUTTLE SERVICE</span>
+                </div>
+                <div class="col-md-4">
+                  <span
+                    ><i class="fa-solid fa-bottle-water"></i> MINERAL
+                    WATER</span
+                  >
+                </div>
+                <div class="col-md-4">
+                  <span><i class="fa-solid fa-vault"></i> SAFETY BOX</span>
+                </div>
+                <div class="col-md-4">
+                  <span><i class="fa-solid fa-cookie-bite"></i> SNACK BAR</span>
+                </div>
+                <div class="col-md-4">
+                  <span
+                    ><i class="fa-solid fa-martini-glass"></i> COCKTAIL</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is accomodation reservation section -->
+    <section class="sc-section accomodation-section">
+      <div class="container p-4">
+        <div class="accommodation-sub-text">
+          <span><strong>ACCOMODATION RESERVATION</strong></span>
+        </div>
+        <div class="accommodation-icon">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-4">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <h6>
+                <span><strong>CALL US</strong></span>
+              </h6>
+              <p>
+                <span><strong>0 123 4567 890</strong></span>
+              </p>
+            </div>
+            <div class="col-md-4">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              <h6>
+                <span><strong>RESERVE ONLINE</strong></span>
+              </h6>
+              <p>
+                <span
+                  ><strong><a href="">BOOK NOW</a></strong></span
+                >
+              </p>
+            </div>
+            <div class="col-md-4">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <h6>
+                <span><strong>EMAIL US</strong></span>
+              </h6>
+              <p>
+                <span><strong>RIVIERAHOTELCONDO@GMAIL.COM</strong></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is footer section -->
+    <footer class="footer-section sc-bg-body-black">
+      <div class="container p-4">
+        <div class="row mt-5 mb-5">
+          <div class="col-lg-3 mb-5 sc-text-white">
+            <a class="navbar-brand" href="/index.html">
+              <img src="/assets/temporarily-logo.png" width="100" alt="" />
+            </a>
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+              sapiente.
+            </p>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 nav-item mt-3 sc-text-white">
+            <span><strong>Reach Out</strong></span>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <span>Email: </span>
+              </li>
+              <li class="nav-item">
+                <span>Telephone: </span>
+              </li>
+              <li class="nav-item">
+                <span>Address: </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 nav-item mt-3 sc-text-white">
+            <span><strong>Navigate</strong></span>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accomodation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 nav-item mt-3 sc-text-white">
+            <span><strong>Newsletter</strong></span>
+            <p><small>Enter your email address</small></p>
+            <form action="">
+              <div class="row mb-3">
+                <div class="col-sm-12">
+                  <input
+                    type="text"
+                    class="form-control form-control-sm rounded-0 shadow-none border-0"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div>
+                <button type="submit" class="sc-btn sc-btn-white">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="sc-bg-body-white" />
+        <div class="footer-bottom">
+          <div class="social-link-footer sc-text-white mb-5">
+            <span><a href="">Facebook</a></span> /
+            <span><a href="">Instagram</a></span> /
+            <span><a href="">Booking</a></span>
+          </div>
+          <div class="developed-by-footer sc-text-white">
+            <span
+              >Copyright 2024. All rights reserved developed and maintained by
+              Scope88</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/plugins/splide.min.js"></script>
+    <script src="/js/components/splide.js"></script>
+    <script src="/js/plugins/jquery.min.js"></script>
+    <script src="/js/plugins/scroll.js"></script>
+    <script src="/js/components/loder.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

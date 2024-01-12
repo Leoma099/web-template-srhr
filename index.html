@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subic Riviera Hotel and Residences</title>
+    <link rel="icon" href="/assets/temporarily-logo.png" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/plugins/splide.min.css" />
+    <link rel="stylesheet" href="/css/pages/index.css" />
+    <link rel="stylesheet" href="/css/plugins/aos.min.css" />
+  </head>
+  <body>
+    <!-- this is loader section -->
+    <section class="loader-section">
+      <div class="loader-wrapper">
+        <div class="container p-4">
+          <div class="text-center d-lg-grid justify-content-center">
+            <div>
+              <img
+                src="/assets/temporarily-logo.png"
+                class="img-fluid"
+                width="100"
+                alt=""
+              />
+            </div>
+            <br />
+            <div>
+              <img
+                src="/assets/temporarily-logo-text.png"
+                class="img-fluid"
+                width="200"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- this is navigation menu mobile view section -->
+    <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"
+          ><img
+            class="img-logo-text"
+            src="/assets/temporarily-logo-text.png"
+            width="200"
+            alt="" />
+          <img
+            class="img-logo"
+            src="/assets/temporarily-logo.png"
+            width="50"
+            alt=""
+        /></a>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <button
+              class="navbar-toggler border-0 rounded-0 shadow-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="sc-text-white"
+                ><i class="fs-2 fas fa-bars"></i
+              ></span>
+            </button>
+          </div>
+          <div class="btn-book-now">
+            <div class="d-flex align-items-center">
+              <a class="sc-btn sc-btn-white" href="">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Subic Riviera Hotel and Residences
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/room.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/dinning.html"
+                  >Dining</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/event.html"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex align-items-center book-now">
+              <a class="sc-btn sc-btn-white" href="">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- this is navigation desktop view section -->
+    <nav class="nav-section fixed-top z-2 bg-color desktop-view">
+      <div class="nav-control">
+        <div class="nav-lang">
+          <a href="">ENG <i class="fa-solid fa-caret-down"></i></a>
+        </div>
+        <div class="nav-logo">
+          <a href="/index.html">
+            <img src="/assets/temporarily-logo-text.png" alt="" />
+          </a>
+        </div>
+        <div class="nav-btn">
+          <a class="sc-btn sc-btn-white" href="#">BOOK NOW</a>
+        </div>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li>
+            <a href="/room.html">ACCOMODATION</a>
+          </li>
+          <li>
+            <a href="/dinning.html">DINNING</a>
+          </li>
+          <li>
+            <a href="/meeting-and-event.html">MEETINGS & EVENTS</a>
+          </li>
+          <li>
+            <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
+          </li>
+          <li>
+            <a href="/about.html">ABOUT US</a>
+          </li>
+          <li>
+            <a href="/gallery.html">GALLERY</a>
+          </li>
+          <li>
+            <a href="/contact.html">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- this is header-banner section -->
+    <section class="sc-section header-section">
+      <div
+        class="container p-4"
+        data-aos="zoom-in-down"
+        data-aos-duration="1000"
+        data-aos-once="true"
+        data-aos-delay="270"
+      >
+        <div class="header-label">
+          <h1>Welcome to Subic Riviera Hotel and Residences</h1>
+        </div>
+        <div
+          class="header-btn"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="300"
+        >
+          <a href="">BOOK NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is about section -->
+    <section class="sc-section about-section">
+      <div class="container p-4">
+        <div class="row align-items-center">
+          <div
+            class="col-lg-6 order-md-2"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            <img
+              src="/assets/index/riviera-hotel-building.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-6 order-md-1"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="600"
+          >
+            <div class="about-details">
+              <h1>
+                DISCOVER A MODERN LUXURY HOTEL IN SUBIC RIVIERA HOTEL AND
+                RESIDENCES
+              </h1>
+              <br />
+              <span
+                ><small
+                  >"IT IS A PLACE IN THE HEART OF EVERYTHING THAT EVERY STAY
+                  FEELS LIKE A HOLIDAY."</small
+                ></span
+              >
+              <br />
+              <br />
+              <p>
+                This modern luxury hotel in Subic Riviera Hotel and Residences
+                is located in at at Lot 9 Block B Subic Commercial and Light
+                Park, CBD Area, Subic Bay Freeport Zone, Olongapo, Philippines.
+                <br />
+                <br />
+                The hotel presents a contemporary style filled with high-end
+                furnishings, services and facilities. You can spend your days
+                relaxing.
+              </p>
+              <br />
+              <div class="about-btn">
+                <a class="sc-btn sc-btn-black" href="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is accomodation section -->
+    <section class="sc-section accomodation-section">
+      <div class="p-4">
+        <div class="accomodation-title">
+          <span><strong>ACCOMODATION FEATURE</strong></span>
+          <h1>A Touch of Elegance</h1>
+        </div>
+        <div class="accomodation-paragraph">
+          <p>
+            Our rooms and suites with bright colours and soft textures complete
+            the look of the hotel, <br />
+            where chic and comfort come together for your well-being.
+          </p>
+        </div>
+        <div class="accomodation-wrapper">
+          <div
+            class="accomodation-image"
+            data-aos="slide-left"
+            data-aos-duration="1500"
+            data-aos-once="true"
+          >
+            <img src="/assets/index/king-bed.jpg" class="img-fluid" alt="" />
+          </div>
+          <div
+            class="accomodation-details"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
+            <h1>RIVIERA DELUXE</h1>
+            <p>
+              2 Rooms with 1 King Size Bed each with Complimentary Breakfast for
+              4
+            </p>
+            <p><strong>Amenities:</strong></p>
+            <div class="accomodation-amenities d-flex justify-content-between">
+              <div>
+                <ul>
+                  <li>AIR-CONDITIONED ROOMS</li>
+                  <li>SKY LOUNGE BAR & RESTO</li>
+                  <li>SWIMMING POOLS</li>
+                  <li>GYM & SPA</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>AIR-CONDITIONED ROOMS</li>
+                  <li>SKY LOUNGE BAR & RESTO</li>
+                  <li>SWIMMING POOLS</li>
+                  <li>GYM & SPA</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>AIR-CONDITIONED ROOMS</li>
+                  <li>SKY LOUNGE BAR & RESTO</li>
+                  <li>SWIMMING POOLS</li>
+                  <li>GYM & SPA</li>
+                </ul>
+              </div>
+            </div>
+            <div class="accomodation-button d-flex justify-content-between">
+              <a class="sc-btn sc-btn-white" href="">BROWSER ROOMS</a>
+              <a class="sc-btn sc-btn-white" href="">BOOK NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is dinning section -->
+    <section class="sc-section dinning-section">
+      <div class="container p-4">
+        <div class="dinning-title">
+          <span><strong>DINNING</strong></span>
+          <h1>Flavour and Refinement</h1>
+        </div>
+        <div class="dinning-paragraph">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            in earum suscipit? <br />
+            Officiis ducimus quia minima voluptatum repudiandae maxime est.
+          </p>
+        </div>
+        <div class="dinning-warpper">
+          <div class="dinning-restaurant">
+            <div
+              class="restaurant-img"
+              data-aos="fade-down"
+              data-aos-duration="500"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
+              <img
+                src="/assets/index/fancy-restaurant.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="restaurant-details">
+              <h2>Restaurant</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, repudiandae?
+              </p>
+            </div>
+            <div class="restaurant-button">
+              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+            </div>
+          </div>
+          <div class="dinning-bar">
+            <div
+              class="bar-img"
+              data-aos="fade-down"
+              data-aos-duration="500"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
+              <img src="/assets/index/fancy-bar.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="bar-details">
+              <h2>Bar</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, repudiandae?
+              </p>
+            </div>
+            <div class="bar-button">
+              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is content-section -->
+    <section class="sc-section content-section">
+      <div class="container p-4">
+        <!-- this is content-sub-text -->
+        <div class="content-sub-text">
+          <h1>Subic Riviera Hotel and Residences</h1>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            aut sequi reprehenderit ipsam commodi excepturi molestiae nesciunt
+            nobis omnis veniam. Atque assumenda delectus amet numquam in
+            expedita tenetur libero voluptas.
+          </p>
+        </div>
+
+        <!-- this is content-img -->
+        <div
+          class="content-img"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="250"
+        >
+          <div class="d-lg-flex align-items-center">
+            <!-- this is image -->
+            <div
+              class="col-lg-6 order-md-1"
+              data-aos="slide-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="500"
+            >
+              <img
+                src="/assets/index/title-paragraph.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <!-- this is paragraph text -->
+            <div
+              class="col-lg-6 order-md-2"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-once="true"
+              data-aos-delay="250"
+            >
+              <div class="content-paragraph">
+                <h3>
+                  "We may not be the best hotel you ever had, but we want you to
+                  experience our best and most comfortable hotel service."
+                </h3>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maxime, molestiae! Ex, velit rem! Unde cupiditate facilis
+                  officia ducimus esse, earum fugit a fuga obcaecati? Amet quis
+                  maiores iusto autem laborum omnis. Voluptatem ducimus cum
+                  cupiditate sit accusamus dolorum a modi, aspernatur sint iste?
+                  Tempora magnam nam iure dolor deserunt sunt!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is meetings and events section -->
+    <section class="sc-section meeting-event-section">
+      <div class="container p-4">
+        <div class="meeting-event-title">
+          <span><strong>MEETINGS & EVENTS</strong></span>
+          <h1>Your Tailor-Made Event</h1>
+        </div>
+        <div class="meeting-event-paragraph">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            in earum suscipit? <br />
+            Officiis ducimus quia minima voluptatum repudiandae maxime est.
+          </p>
+        </div>
+        <div class="meeting-event-wrapper">
+          <div
+            class="image1"
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="270"
+          >
+            <img
+              src="/assets/index/conference-room.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div
+            class="image2"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="400"
+          >
+            <img
+              src="/assets/index/conference-chair.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div
+            class="image3"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="470"
+          >
+            <img
+              src="/assets/index/meeting-room.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div
+            class="image4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="800"
+          >
+            <img src="/assets/index/venue-room.jpg" class="img-fluid" alt="" />
+          </div>
+          <div
+            class="image5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="870"
+          >
+            <img
+              src="/assets/index/venue-with-people.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="meeting-event-button">
+          <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is weddings and celebrations section -->
+    <section class="sc-section wedding-celebration-section">
+      <div class="container p-4">
+        <div class="wedding-celebration-title">
+          <span><strong>WEDDINGS & CELEBRATIONS</strong></span>
+          <h1>Make your reception into a unique event</h1>
+        </div>
+        <div class="wedding-celebration-paragraph">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            in earum suscipit? <br />
+            Officiis ducimus quia minima voluptatum repudiandae maxime est.
+          </p>
+        </div>
+        <div class="wedding-celebration-wrapper">
+          <div class="row g-3 justify-content-center">
+            <div class="col-md-4">
+              <div class="wedding-celebration-img">
+                <img
+                  src="/assets/index/wedding-event.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wedding-celebration-img">
+                <img
+                  src="/assets/index/degree-event.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wedding-celebration-img">
+                <img
+                  src="/assets/index/birthday vent.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wedding-celebration-button">
+          <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is footer section -->
+    <footer class="sc-section footer-section">
+      <div class="container p-4">
+        <div class="row mt-5 mb-5">
+          <div class="col-lg-3 mb-5 sc-text-white">
+            <a class="navbar-brand" href="/index.html">
+              <img src="/assets/temporarily-logo.png" width="100" alt="" />
+            </a>
+            <br />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+              sapiente.
+            </p>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 nav-item mt-3 sc-text-white">
+            <span><strong>Reach Out</strong></span>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <span>Email: </span>
+              </li>
+              <li class="nav-item">
+                <span>Telephone: </span>
+              </li>
+              <li class="nav-item">
+                <span>Address: </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 nav-item mt-3 sc-text-white">
+            <span><strong>Navigate</strong></span>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accomodation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 nav-item mt-3 sc-text-white">
+            <span><strong>Newsletter</strong></span>
+            <p><small>Enter your email address</small></p>
+            <form action="">
+              <div class="row mb-3">
+                <div class="col-sm-12">
+                  <input
+                    type="text"
+                    class="form-control form-control-sm rounded-0 shadow-none border-0"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div>
+                <button type="submit" class="sc-btn sc-btn-white">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="sc-bg-body-white" />
+        <div class="footer-bottom">
+          <div class="social-link-footer sc-text-white mb-5">
+            <span><a href="">Facebook</a></span> /
+            <span><a href="">Instagram</a></span> /
+            <span><a href="">Booking</a></span>
+          </div>
+          <div class="developed-by-footer sc-text-white">
+            <span
+              >Copyright 2024. All rights reserved developed and maintained by
+              Scope88</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/plugins/splide.min.js"></script>
+    <script src="/js/components/splide.js"></script>
+    <script src="/js/plugins/jquery.min.js"></script>
+    <script src="/js/plugins/scroll.js"></script>
+    <script src="/js/components/loder.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
