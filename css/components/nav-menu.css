@@ -72,6 +72,18 @@
 }
 /* Tablet or Mobile screen */
 @media screen and (max-width: 575px) {
+  .img-logo-text {
+    display: none;
+  }
+  .offcanvas-body ul li a {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .book-now a {
+    display: none;
+  }
   .desktop-view {
     display: none;
   }

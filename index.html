@@ -85,40 +85,57 @@
           </div>
         </div>
         <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
+          class="offcanvas offcanvas-start"
+          tabindex="1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Subic Riviera Hotel and Residences
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
+          <div class="offcanvas-header"></div>
           <div class="offcanvas-body">
+            <div class="text-end">
+              <button
+                type="button"
+                class="btn-close border-0 shadow-none"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/room.html">Rooms</a>
-              </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/dinning.html"
-                  >Dining</a
+                <a class="sc-nav-link sc-text-white" href="/room.html"
+                  ><small>ACCOMODATION</small></a
                 >
               </li>
               <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/event.html"
-                  >Events</a
+                <a class="sc-nav-link sc-text-white" href="/dinning.html"
+                  ><small>DINNING</small></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="sc-nav-link sc-text-white"
+                  href="/meeting-and-event.html"
+                  ><small>MEETINGS & EVENTS</small></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/wedding.html"
+                  ><small>WEDDINGS & EVENTS</small></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/about.html"
+                  ><small>ABOUT US</small></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="sc-nav-link sc-text-white" href="/gallery.html"
+                  ><small>GALLERY</small></a
                 >
               </li>
               <li class="nav-item">
                 <a class="sc-nav-link sc-text-white" href="/contact.html"
-                  >Contact</a
+                  ><small>CONTACT US</small></a
                 >
               </li>
             </ul>
@@ -243,10 +260,6 @@
                 furnishings, services and facilities. You can spend your days
                 relaxing.
               </p>
-              <br />
-              <div class="about-btn">
-                <a class="sc-btn sc-btn-black" href="">Read More</a>
-              </div>
             </div>
           </div>
         </div>
@@ -255,7 +268,7 @@
 
     <!-- this is accomodation section -->
     <section class="sc-section accomodation-section">
-      <div class="p-4">
+      <div class="container p-4">
         <div class="accomodation-title">
           <span><strong>ACCOMODATION FEATURE</strong></span>
           <h1>A Touch of Elegance</h1>
@@ -263,26 +276,21 @@
         <div class="accomodation-paragraph">
           <p>
             Our rooms and suites with bright colours and soft textures complete
-            the look of the hotel, <br />
-            where chic and comfort come together for your well-being.
+            the look of the hotel, where chic and comfort come together for your
+            well-being.
           </p>
         </div>
-        <div class="accomodation-wrapper d-lg-flex">
-          <div
-            class="accomodation-image"
-            data-aos="slide-left"
-            data-aos-duration="1500"
-            data-aos-once="true"
-          >
+        <div
+          class="accomodation-wrapper"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="270"
+        >
+          <div class="accomodation-image">
             <img src="/assets/index/king-bed.jpg" class="img-fluid" alt="" />
           </div>
-          <div
-            class="accomodation-details"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-once="true"
-            data-aos-delay="300"
-          >
+          <div class="accomodation-details">
             <h1>RIVIERA DELUXE</h1>
             <p>
               2 Rooms with 1 King Size Bed each with Complimentary Breakfast for
@@ -334,19 +342,18 @@
         <div class="dinning-paragraph">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-            in earum suscipit? <br />
-            Officiis ducimus quia minima voluptatum repudiandae maxime est.
+            in earum suscipit? Officiis ducimus quia minima voluptatum
+            repudiandae maxime est.
           </p>
         </div>
-        <div class="dinning-warpper">
+        <div
+          class="dinning-warpper"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <div class="dinning-restaurant">
-            <div
-              class="restaurant-img"
-              data-aos="fade-down"
-              data-aos-duration="500"
-              data-aos-once="true"
-              data-aos-delay="200"
-            >
+            <div class="restaurant-img">
               <img
                 src="/assets/index/fancy-restaurant.jpg"
                 class="img-fluid"
@@ -365,13 +372,7 @@
             </div>
           </div>
           <div class="dinning-bar">
-            <div
-              class="bar-img"
-              data-aos="fade-down"
-              data-aos-duration="500"
-              data-aos-once="true"
-              data-aos-delay="300"
-            >
+            <div class="bar-img">
               <img src="/assets/index/fancy-bar.jpg" class="img-fluid" alt="" />
             </div>
             <div class="bar-details">
@@ -490,7 +491,7 @@
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-once="true"
-            data-aos-delay="400"
+            data-aos-delay="300"
           >
             <img
               src="/assets/index/conference-chair.jpg"
@@ -503,7 +504,6 @@
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-once="true"
-            data-aos-delay="470"
           >
             <img
               src="/assets/index/meeting-room.jpg"
@@ -516,7 +516,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
-            data-aos-delay="800"
+            data-aos-delay="370"
           >
             <img src="/assets/index/venue-room.jpg" class="img-fluid" alt="" />
           </div>
@@ -525,7 +525,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
-            data-aos-delay="870"
+            data-aos-delay="200"
           >
             <img
               src="/assets/index/venue-with-people.jpg"
@@ -556,7 +556,13 @@
         </div>
         <div class="wedding-celebration-wrapper">
           <div class="row g-3 justify-content-center">
-            <div class="col-md-4">
+            <div
+              class="col-md-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="250"
+            >
               <div class="wedding-celebration-img">
                 <img
                   src="/assets/index/wedding-event.jpg"
@@ -565,7 +571,13 @@
                 />
               </div>
             </div>
-            <div class="col-md-4">
+            <div
+              class="col-md-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="270"
+            >
               <div class="wedding-celebration-img">
                 <img
                   src="/assets/index/degree-event.jpg"
@@ -574,7 +586,13 @@
                 />
               </div>
             </div>
-            <div class="col-md-4">
+            <div
+              class="col-md-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
               <div class="wedding-celebration-img">
                 <img
                   src="/assets/index/birthday vent.jpg"
@@ -591,8 +609,28 @@
       </div>
     </section>
 
+    <!-- this is article section -->
+    <section class="sc-section article-section">
+      <div class="container p-4">
+        <div class="article-title">
+          <span><strong>LIFE RESSEMBLES A VOYAGE</strong></span>
+        </div>
+        <div class="article-paragraph">
+          <p>
+            Explore the abundant opportunities in life to discover the
+            extraordinary, embrace new experiences, and broaden your horizons.
+            Uncover your next exceptional moment with Subic Riviera Hotel and
+            Residences.
+          </p>
+        </div>
+        <div class="article-button">
+          <a class="sc-btn sc-btn-white" href="/about.html">ABOUT US</a>
+        </div>
+      </div>
+    </section>
+
     <!-- this is footer section -->
-    <footer class="sc-section footer-section">
+    <footer class="footer-section">
       <div class="container p-4">
         <div class="row mt-5 mb-5">
           <div class="col-lg-3 mb-5 sc-text-white">
