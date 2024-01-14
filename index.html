@@ -124,11 +124,6 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/about.html"
-                  ><small>ABOUT US</small></a
-                >
-              </li>
-              <li class="nav-item">
                 <a class="sc-nav-link sc-text-white" href="/gallery.html"
                   ><small>GALLERY</small></a
                 >
@@ -175,9 +170,6 @@
           </li>
           <li>
             <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
-          </li>
-          <li>
-            <a href="/about.html">ABOUT US</a>
           </li>
           <li>
             <a href="/gallery.html">GALLERY</a>
@@ -448,9 +440,9 @@
             <h1>Fitness</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur incidunt dolor veritatis enim odit quaerat minima voluptatibus ea mollitia, recusandae nam officia facilis praesentium at nobis doloribus laboriosam ullam expedita?</p>
             <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
-            </div>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- this is content-section -->
@@ -678,17 +670,27 @@
         <div class="faq-title">
           <span><strong>FREQUENTLY ASKED QUESTIONS</strong></span>
         </div>
-        <div class="faq-collapse">
-          <div class="faq-wrapper">
-            <div class="faq-question">
+        <!-- <div class="faq-collapse">
+          <div class="faq-wrapper"> 
+            <div class="faq-question"
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+
               <div class="faq-text">
-                <a href="">Is there a near beach?</a>
+                <a>Is there a near beach?</a>
               </div>
-              <div class="faq-icon">
-                <i class="fas fa-caret-down"></i>
+
+              <div class="faq-icon" id="iconContainer">
+                <i class="fas fa-caret-down" id="toggleIcon"></i>
               </div>
+
             </div>
-            <div class="faq-answer"></div>
+
+            <div class="collapse faq-answer" id="collapseExample">
+              <p>Yes there is a nearest beach.</p>
+            </div>
           </div>
         </div>
         <div class="collapse-container">
@@ -698,7 +700,7 @@
           <div class="icon-container" id="iconContainer">
             <i class="fas fa-chevron-right" id="toggleIcon"></i>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -815,16 +817,16 @@
       document.getElementById('iconContainer').addEventListener('click', function() {
   var icon = document.getElementById('toggleIcon');
 
-  if (icon.classList.contains('fa-chevron-right')) {
-    icon.classList.remove('fa-chevron-right');
-    icon.classList.add('fa-chevron-down');
+  if (icon.classList.contains('fa-caret-down')) {
+    icon.classList.remove('fa-caret-down');
+    icon.classList.add('fa-caret-up');
   } else {
-    icon.classList.remove('fa-chevron-down');
-    icon.classList.add('fa-chevron-right');
+    icon.classList.remove('fa-caret-up');
+    icon.classList.add('fa-caret-down');
   }
 
   // Toggle the collapse effect
-  var textContainer = document.querySelector('.text-container');
+  var textContainer = document.querySelector('.faq-text');
   textContainer.classList.toggle('collapsed');
 });
     </script>

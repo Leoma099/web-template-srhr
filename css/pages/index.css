@@ -358,6 +358,29 @@
     text-align: center;
     font-size: 48px;
   }
+
+  .faq-collapse {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    .faq-text a {
+      text-decoration: none;
+      font-size: 20px;
+      color: #000000;
+    }
+  }
+
+  .faq-question:hover {
+    background-color: #ccc;
+  }
 }
 
 /* this is article section */
@@ -462,6 +485,24 @@
     }
     .accomodation-button .sc-btn {
       font-size: 0.7rem;
+    }
+  }
+
+  /* this is spa section */
+  .spa-section {
+    .spa-image .img-1,
+    .spa-image .img-2,
+    .spa-image .img-3,
+    .spa-image .img-4 {
+      width: 350px;
+    }
+  }
+
+  /* this is fitness section */
+  .fitness-section {
+    .fitness-image {
+      width: 320px;
+      height: 200px;
     }
   }
 
