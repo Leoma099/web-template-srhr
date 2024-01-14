@@ -144,6 +144,91 @@
   }
 }
 
+/* this is spa and fitness section */
+.spa-fitness-section {
+  background: linear-gradient(#00000000, #000000c4),
+    url("/assets/index/pool.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  .spa-fitness-title {
+    color: #ffffff;
+  }
+
+  .spa-fitness-title span {
+    font-size: 20px;
+  }
+
+  .spa-fitness-title h1 {
+    font-size: 70px;
+  }
+
+  .spa-fitness-paragraph {
+    color: #ffffff;
+    font-style: italic;
+  }
+}
+
+/* this is spa section */
+.spa-section {
+  .spa-image .img-1,
+  .spa-image .img-2,
+  .spa-image .img-3,
+  .spa-image .img-4 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .spa-image .img-1 img,
+  .spa-image .img-2 img,
+  .spa-image .img-3 img,
+  .spa-image .img-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* this is fitness section */
+.fitness-section {
+  .fitness-image {
+    width: 600px;
+    height: 400px;
+  }
+
+  .fitness-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.collapse-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.icon-container {
+  padding: 5px;
+  cursor: pointer;
+}
+
 /* this is content section */
 .content-section {
   background-color: #000000;
@@ -265,6 +350,13 @@
 
   .wedding-celebration-button {
     text-align: center;
+  }
+}
+
+.faq-section {
+  .faq-title {
+    text-align: center;
+    font-size: 48px;
   }
 }
 
@@ -434,6 +526,23 @@
     .meeting-event-wrapper {
       display: flex;
       flex-wrap: wrap;
+    }
+  }
+
+  /* this is faq section */
+  .faq-section {
+    .faq-title {
+      font-size: 18px;
+    }
+  }
+
+  /* this is article section */
+  .article-section {
+    .article-title {
+      font-size: 18px;
+    }
+    .article-paragraph {
+      font-size: 12px;
     }
   }
 

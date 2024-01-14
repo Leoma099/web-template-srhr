@@ -390,6 +390,69 @@
       </div>
     </section>
 
+    <!-- this is spa and fitness section -->
+    <section class="sc-section spa-fitness-section">
+      <div class="container p-4">
+        <div class="spa-fitness-title">
+          <span><strong>SPA & FITNESS</strong></span>
+          <h1>Club Glante</h1>
+        </div>
+        <div class="spa-fitness-paragraph">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio in earum suscipit? <br> Officiis ducimus quia minima voluptatum repudiandae maxime est.
+        </div>
+      </div>
+    </section>
+
+    <!-- this is spa section -->
+    <section class="sc-section spa-section">
+      <div class="container p-4">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <div class="spa-wrapper">
+              <div class="row g-3 gap-3 spa-image">
+                <div class="col-md-6 img-1">
+                  <img src="/assets/index/swimming.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 img-2">
+                  <img src="/assets/index/spa.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 img-3">
+                  <img src="/assets/index/sauna.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 img-4">
+                  <img src="/assets/index/foot-spa.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h1>SPA</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur incidunt dolor veritatis enim odit quaerat minima voluptatibus ea mollitia, recusandae nam officia facilis praesentium at nobis doloribus laboriosam ullam expedita?</p>
+            <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is fitness section -->
+    <section class="sc-section fitness-section">
+      <div class="container p-4">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <div class="fitness-image">
+              <img src="/assets/index/fitness.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h1>Fitness</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur incidunt dolor veritatis enim odit quaerat minima voluptatibus ea mollitia, recusandae nam officia facilis praesentium at nobis doloribus laboriosam ullam expedita?</p>
+            <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <!-- this is content-section -->
     <section class="sc-section content-section">
       <div class="container p-4">
@@ -609,6 +672,36 @@
       </div>
     </section>
 
+    <!-- this is frequently asked questions section -->
+    <section class="sc-section faq-section">
+      <div class="container p-4">
+        <div class="faq-title">
+          <span><strong>FREQUENTLY ASKED QUESTIONS</strong></span>
+        </div>
+        <div class="faq-collapse">
+          <div class="faq-wrapper">
+            <div class="faq-question">
+              <div class="faq-text">
+                <a href="">Is there a near beach?</a>
+              </div>
+              <div class="faq-icon">
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="faq-answer"></div>
+          </div>
+        </div>
+        <div class="collapse-container">
+          <div class="text-container">
+            <p>This is some text on the left</p>
+          </div>
+          <div class="icon-container" id="iconContainer">
+            <i class="fas fa-chevron-right" id="toggleIcon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- this is article section -->
     <section class="sc-section article-section">
       <div class="container p-4">
@@ -717,6 +810,23 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      document.getElementById('iconContainer').addEventListener('click', function() {
+  var icon = document.getElementById('toggleIcon');
+
+  if (icon.classList.contains('fa-chevron-right')) {
+    icon.classList.remove('fa-chevron-right');
+    icon.classList.add('fa-chevron-down');
+  } else {
+    icon.classList.remove('fa-chevron-down');
+    icon.classList.add('fa-chevron-right');
+  }
+
+  // Toggle the collapse effect
+  var textContainer = document.querySelector('.text-container');
+  textContainer.classList.toggle('collapsed');
+});
     </script>
   </body>
 </html>
