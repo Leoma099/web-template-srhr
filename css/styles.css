@@ -7,3 +7,7 @@
 @import url("/css/components/nav-menu.css");
 @import url("/css/components/splide.css");
 @import url("/css/components/loader.css");
+
+html {
+  scroll-behavior: smooth;
+}

@@ -147,12 +147,12 @@
 /* this is spa and fitness section */
 .spa-fitness-section {
   background: linear-gradient(#00000000, #000000c4),
-    url("/assets/index/pool.jpg") center center;
+    url("/assets/index/pool.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 65vh;
-  background-attachment: fixed;
+  height: 70vh;
   display: flex;
+  background-position: center;
   align-items: center;
   text-align: center;
 
@@ -345,11 +345,47 @@
   }
 
   .wedding-celebration-wrapper {
+    display: flex;
+    flex: row;
+  }
+
+  .wedding-image {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     margin: 50px 0px;
   }
 
-  .wedding-celebration-button {
-    text-align: center;
+  .wedding-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .birthday-image {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px 0px;
+  }
+
+  .birthday-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .graduation-image {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px 0px;
+  }
+
+  .graduation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 

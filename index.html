@@ -316,8 +316,8 @@
               </div>
             </div>
             <div class="accomodation-button d-flex justify-content-between">
-              <a class="sc-btn sc-btn-white" href="">BROWSER ROOMS</a>
-              <a class="sc-btn sc-btn-white" href="">BOOK NOW</a>
+              <a class="sc-btn sc-btn-white" href="/room.html">BROWSER ROOMS</a>
+              <a class="sc-btn sc-btn-white" href="#">BOOK NOW</a>
             </div>
           </div>
         </div>
@@ -360,7 +360,7 @@
               </p>
             </div>
             <div class="restaurant-button">
-              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+              <a class="sc-btn sc-btn-black" href="dinning.html">VIEW MORE</a>
             </div>
           </div>
           <div class="dinning-bar">
@@ -375,7 +375,7 @@
               </p>
             </div>
             <div class="bar-button">
-              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+              <a class="sc-btn sc-btn-black" href="dinning.html">VIEW MORE</a>
             </div>
           </div>
         </div>
@@ -610,56 +610,42 @@
           </p>
         </div>
         <div class="wedding-celebration-wrapper">
-          <div class="row g-3 justify-content-center">
-            <div
-              class="col-md-4"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-once="true"
-              data-aos-delay="250"
-            >
-              <div class="wedding-celebration-img">
-                <img
-                  src="/assets/index/wedding-event.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+          <div class="wedding">
+            <div class="wedding-image">
+              <img src="assets/index/wedding-event.jpg" class="img-fluid" alt="">
             </div>
-            <div
-              class="col-md-4"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-once="true"
-              data-aos-delay="270"
-            >
-              <div class="wedding-celebration-img">
-                <img
-                  src="/assets/index/degree-event.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+            <div class="wedding-details">
+              <h1>Wedding</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius porro doloribus perferendis officia molestias dolores eos. Dolorem, veniam assumenda? Iure!</p>
             </div>
-            <div
-              class="col-md-4"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-once="true"
-              data-aos-delay="300"
-            >
-              <div class="wedding-celebration-img">
-                <img
-                  src="/assets/index/birthday vent.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+            <div class="wedding-button">
+              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
             </div>
           </div>
-        </div>
-        <div class="wedding-celebration-button">
-          <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+          <div class="birthday">
+            <div class="birthday-image">
+              <img src="assets/index/birthday vent.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="birthday-details">
+              <h1>Birthday</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, accusantium pariatur ipsam vero illum nisi inventore eaque praesentium tenetur est!</p>
+            </div>
+            <div class="birthday-button">
+              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+            </div>
+          </div>
+          <div class="graduation">
+            <div class="graduation-image">
+              <img src="assets/index/degree-event.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="graduation-details">
+              <h1>Graduation</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero veritatis, ea quos quo esse suscipit natus exercitationem velit quisquam eos!</p>
+            </div>
+            <div class="graduation-button">
+              <a class="sc-btn sc-btn-black" href="">VIEW MORE</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -670,37 +656,6 @@
         <div class="faq-title">
           <span><strong>FREQUENTLY ASKED QUESTIONS</strong></span>
         </div>
-        <!-- <div class="faq-collapse">
-          <div class="faq-wrapper"> 
-            <div class="faq-question"
-            data-bs-toggle="collapse"
-            href="#collapseExample"
-            role="button" aria-expanded="false"
-            aria-controls="collapseExample">
-
-              <div class="faq-text">
-                <a>Is there a near beach?</a>
-              </div>
-
-              <div class="faq-icon" id="iconContainer">
-                <i class="fas fa-caret-down" id="toggleIcon"></i>
-              </div>
-
-            </div>
-
-            <div class="collapse faq-answer" id="collapseExample">
-              <p>Yes there is a nearest beach.</p>
-            </div>
-          </div>
-        </div>
-        <div class="collapse-container">
-          <div class="text-container">
-            <p>This is some text on the left</p>
-          </div>
-          <div class="icon-container" id="iconContainer">
-            <i class="fas fa-chevron-right" id="toggleIcon"></i>
-          </div>
-        </div> -->
       </div>
     </section>
 
@@ -810,25 +765,7 @@
     <script src="/js/plugins/scroll.js"></script>
     <script src="/js/components/loder.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script>
-      document.getElementById('iconContainer').addEventListener('click', function() {
-  var icon = document.getElementById('toggleIcon');
-
-  if (icon.classList.contains('fa-caret-down')) {
-    icon.classList.remove('fa-caret-down');
-    icon.classList.add('fa-caret-up');
-  } else {
-    icon.classList.remove('fa-caret-up');
-    icon.classList.add('fa-caret-down');
-  }
-
-  // Toggle the collapse effect
-  var textContainer = document.querySelector('.faq-text');
-  textContainer.classList.toggle('collapsed');
-});
-    </script>
+    <script src="js/components/aos.js"></script>
+    <script src="/js/components/collapse-icon.js"></script>
   </body>
 </html>
