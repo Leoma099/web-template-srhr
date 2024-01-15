@@ -389,33 +389,28 @@
   }
 }
 
+/* This is For Asking Question section */
 .faq-section {
   .faq-title {
     text-align: center;
     font-size: 48px;
+    margin: 50px 0px;
   }
 
-  .faq-collapse {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+  .faq-wrapper {
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-  .faq-question {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    cursor: pointer;
-
-    .faq-text a {
-      text-decoration: none;
-      font-size: 20px;
-      color: #000000;
+      span {
+        font-size: 20px;
+        color: #000000;
+      }
     }
-  }
-
-  .faq-question:hover {
-    background-color: #ccc;
+    .faq-answer {
+      padding: 0px 20px;
+    }
   }
 }
 
@@ -606,6 +601,22 @@
     }
   }
 
+  /* this is wedding and celebration */
+  .wedding-celebration-section {
+    .wedding-celebration-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .wedding-image,
+    .birthday-image,
+    .graduation-image {
+      width: 320px;
+      height: 320px;
+      overflow: hidden;
+    }
+  }
+
   /* this is faq section */
   .faq-section {
     .faq-title {
@@ -635,8 +646,4 @@
       margin-top: 20px;
     }
   }
-}
-
-hr {
-  color: white;
 }
