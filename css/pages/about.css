@@ -9,7 +9,8 @@
   align-items: center;
   text-align: center;
 
-  .header-label {
+  .header-label h1 {
+    font-size: 100px;
     color: #ffffff;
   }
 }
@@ -210,8 +211,4 @@
       flex-wrap: wrap;
     }
   }
-}
-
-hr {
-  color: white;
 }

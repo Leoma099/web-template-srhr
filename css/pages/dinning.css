@@ -7,6 +7,11 @@
   display: flex;
   align-items: center;
   text-align: center;
+
+  .header-title h1 {
+    font-size: 100px;
+    color: #ffffff;
+  }
 }
 
 /* this is festive menu section */
@@ -50,13 +55,12 @@
 
   .article-title {
     color: #ffffff;
-    font-size: 1rem;
     text-align: center;
     margin-bottom: 50px;
   }
 
   .article-title span {
-    border-bottom: 3px solid #ffffff;
+    font-size: 3rem;
   }
 
   .article-title p {
@@ -112,7 +116,7 @@
   }
 
   .dinning-special-sub-text span {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .dinning-special-sub-text p {
     font-style: italic;
@@ -144,8 +148,7 @@
     text-align: center;
   }
   .room-dinning-sub-text span {
-    font-size: 1rem;
-    border-bottom: 2px solid #000000;
+    font-size: 3rem;
   }
   .room-dinning-sub-text h1 {
     color: #c4ab1e;
@@ -183,15 +186,6 @@
   }
 }
 @media screen and (max-width: 575px) {
-  .offcanvas-body ul li a {
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
-    margin: 10px;
-  }
-  .img-logo-text {
-    display: none;
-  }
   .footer-bottom {
     display: grid;
     text-align: center;
@@ -199,9 +193,6 @@
   .footer-bottom .social-link-footer span a {
     font-size: 12px;
     margin-top: 20px;
-  }
-  .book-now a {
-    display: none;
   }
   .second-img {
     height: 500px;
@@ -213,15 +204,6 @@
     margin-bottom: 50px;
   }
   .festive-menu-section .festive-menu-sub-text p {
-    text-align: justify;
-  }
-
-  .article-section .article-one-paragraph {
-    margin-top: 50px;
-    text-align: justify;
-  }
-  .article-section .article-two-paragraph {
-    margin-top: 50px;
     text-align: justify;
   }
 }
