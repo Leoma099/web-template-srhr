@@ -19,6 +19,9 @@
   .header-label h1 {
     font-size: 48px;
   }
+  .header-paragraph {
+    color: #ffffff;
+  }
   .header-btn a {
     text-decoration: none;
     color: #ffffff;
@@ -40,107 +43,150 @@
   }
 }
 
+/* this is about section */
+.about-section {
+  .about-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .about-details {
+      h1 {
+        font-size: 48px;
+        margin: 20px 0px;
+      }
+      span {
+        font-size: 14px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
+
 /* this is accomodation feature */
 .accomodation-section {
   background-color: #f5f5f5;
   .accomodation-title {
     text-align: center;
-    font-size: 20px;
+    margin-bottom: 50px;
+
+    span {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-top: 5px;
+    }
   }
   .accomodation-paragraph {
     text-align: center;
     font-style: italic;
+
+    p {
+      margin-bottom: 30px;
+    }
   }
+
   .accomodation-wrapper {
     display: flex;
     flex: row wrap;
-    background-color: #000000;
+    justify-content: center;
     align-items: center;
-  }
+    gap: 20px;
+    margin-bottom: 50px;
 
-  .accomodation-image {
-    height: 400px;
-  }
-  .accomodation-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+    .accomodation {
+      background-color: #000000;
+      overflow-y: hidden;
 
-  .accomodation-details {
-    padding: 0px 50px;
-    color: #ffffff;
-  }
-  .accomodation-amenities ul li {
-    font-size: 12px;
-    line-height: 25px;
+      .accomodation-img {
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: filter 0.5s, transform 0.5s ease-out;
+        }
+
+        img:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .accomodation-details {
+      padding: 30px;
+      color: #ffffff;
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
   }
 }
 
 /* this is dinning section */
 .dinning-section {
-  position: relative;
-  .content {
-    position: relative;
-  }
-
-  .dinning-warpper {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 50px 0px;
-  }
-
   .dinning-title {
     text-align: center;
-    font-size: 20px;
+    margin-bottom: 50px;
+
+    span {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-top: 5px;
+    }
   }
 
-  .dinning-paragraph {
-    text-align: center;
-    font-style: italic;
-  }
+  .dinning-wrapper {
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
 
-  .dinning-restaurant {
-    text-align: center;
-  }
+    .dinning {
+      background-color: #000000;
+      overflow-y: hidden;
 
-  .dinning-restaurant .restaurant-img {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
+      .dinning-image {
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
 
-  .dinning-restaurant .restaurant-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
 
-  .restaurant-details {
-    width: 400px;
-  }
+      .dinning-details {
+        padding: 30px;
+        color: #ffffff;
 
-  .dinning-bar {
-    text-align: center;
-  }
+        h1 {
+          margin-bottom: 20px;
+        }
 
-  .dinning-bar .bar-img {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-
-  .dinning-bar .bar-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .bar-details {
-    width: 400px;
+        p {
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
 }
 
@@ -247,6 +293,7 @@
   .content-img {
     background-color: #ffffff;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .content-img img {
@@ -329,63 +376,89 @@
 
 /* this is wedding and celebration section */
 .wedding-celebration-section {
-  position: relative;
-
-  .content {
-    position: relative;
-  }
+  background-color: #f5f5f5;
 
   .wedding-celebration-title {
     text-align: center;
-    font-size: 20px;
-  }
-  .wedding-celebration-paragraph {
-    text-align: center;
-    font-style: italic;
+    margin-bottom: 50px;
+
+    span {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-top: 5px;
+    }
   }
 
   .wedding-celebration-wrapper {
     display: flex;
-    flex: row;
+    flex: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
   }
 
-  .wedding-image {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    margin: 50px 0px;
+  .wedding {
+    background-color: #000000;
+    .wedding-image {
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .wedding-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .wedding-details {
+      padding: 30px;
+      color: #ffffff;
+    }
   }
 
-  .wedding-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .birthday {
+    background-color: #000000;
+    .birthday-image {
+      width: 420px;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .birthday-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .birthday-details {
+      color: #ffffff;
+      padding: 30px;
+    }
   }
 
-  .birthday-image {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    margin: 50px 0px;
-  }
+  .graduation {
+    background-color: #000000;
+    .graduation-image {
+      width: 420px;
+      height: 300px;
+      overflow: hidden;
+    }
 
-  .birthday-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+    .graduation-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
-  .graduation-image {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    margin: 50px 0px;
-  }
-
-  .graduation-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    .graduation-details {
+      padding: 30px;
+      color: #ffffff;
+    }
   }
 }
 
@@ -483,39 +556,68 @@
   .about-section {
     overflow-x: hidden;
 
-    .about-details {
-      margin-top: 50px;
-    }
-
-    .about-details p {
-      text-align: justify;
+    .about-wrapper {
+      .about-details {
+        margin-top: 50px;
+        h1 {
+          font-weight: bold;
+          font-size: 28px;
+          text-align: justify;
+        }
+      }
     }
   }
 
   /* this is accomodation section */
   .accomodation-section {
-    .accomodation-paragraph {
-      font-size: 12px;
-      text-align: justify;
-    }
+    overflow: hidden;
 
+    .accomodation-title {
+      margin-top: 50px;
+      span {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 30px;
+      }
+    }
     .accomodation-wrapper {
       display: flex;
       flex-direction: column;
+
+      .accomodation {
+        .accomodation-img {
+          width: 320px;
+        }
+      }
     }
-    .accomodation-details {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 20px 20px;
+  }
+
+  /* this is dinning section */
+  .dinning-section {
+    overflow: hidden;
+
+    .dinning-title {
+      margin-top: 50px;
+      span {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 30px;
+      }
     }
 
-    .accomodation-amenities {
+    .dinning-wrapper {
       display: flex;
       flex-direction: column;
-    }
-    .accomodation-button .sc-btn {
-      font-size: 0.7rem;
+
+      .dinning {
+        .dinning-image {
+          width: 320px;
+        }
+      }
     }
   }
 
@@ -534,35 +636,6 @@
     .fitness-image {
       width: 320px;
       height: 200px;
-    }
-  }
-
-  /* this is dinning section */
-  .dinning-section {
-    overflow-x: hidden;
-
-    .dinning-paragraph {
-      font-size: 12px;
-      text-align: justify;
-    }
-
-    .dinning-warpper {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .dinning-restaurant .restaurant-img {
-      padding: 0px 50px;
-      margin-bottom: 20px;
-    }
-    .dinning-restaurant .restaurant-details {
-      padding: 0px 50px;
-    }
-    .dinning-bar .bar-img {
-      padding: 0px 50px;
-      margin-bottom: 20px;
-    }
-    .dinning-bar .bar-details {
-      padding: 0px 50px;
     }
   }
 
@@ -589,10 +662,17 @@
 
   /* this is meeting and event */
   .meeting-event-section {
-    position: relative;
+    overflow: hidden;
 
-    .content {
-      position: relative;
+    .meeting-event-title {
+      margin-top: 50px;
+      span {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 30px;
+      }
     }
 
     .meeting-event-wrapper {
@@ -603,17 +683,44 @@
 
   /* this is wedding and celebration */
   .wedding-celebration-section {
+    overflow: hidden;
+    .wedding-celebration-title {
+      margin-top: 50px;
+
+      span {
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+
     .wedding-celebration-wrapper {
       display: flex;
       flex-direction: column;
-    }
 
-    .wedding-image,
-    .birthday-image,
-    .graduation-image {
-      width: 320px;
-      height: 320px;
-      overflow: hidden;
+      .wedding {
+        .wedding-image {
+          width: 320px;
+          height: 300px;
+        }
+      }
+
+      .birthday {
+        .birthday-image {
+          width: 320px;
+          height: 300px;
+        }
+      }
+
+      .graduation {
+        .graduation-image {
+          width: 320px;
+          height: 300px;
+        }
+      }
     }
   }
 
