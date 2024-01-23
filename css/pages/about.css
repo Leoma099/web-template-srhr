@@ -1,9 +1,10 @@
 .header-section {
-  background: linear-gradient(#00000025, #000000a6),
-    url("/assets/about-us/about-img.jpg") center center;
+  background: linear-gradient(#00000000, #00000045),
+    url("/assets/about-us/riviera-hotel-building.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -59,6 +60,7 @@
     margin-bottom: 50px;
   }
 
+  /* this is overview block */
   .overview-block {
     margin-bottom: 20%;
 
@@ -90,6 +92,7 @@
     }
   }
 
+  /* this is article block */
   .article-block {
     margin-bottom: 20%;
 
@@ -133,10 +136,12 @@
     }
   }
 
+  /* this is blog block */
   .blog-block {
     .blog-wrapper {
       display: flex;
       flex-direction: row;
+      justify-content: center;
       gap: 25px;
 
       .blog {
@@ -152,6 +157,11 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: filter 0.5s, transform 0.5s ease-out;
+          }
+
+          img:hover {
+            transform: scale(1.2);
           }
         }
 
@@ -160,6 +170,27 @@
           color: #ffffff;
         }
       }
+    }
+  }
+}
+
+/* this is feature section */
+.feature-section {
+  background: linear-gradient(#ffffff, #00000031, #ffffff),
+    url("/assets/about-us/island.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .sub-label {
+    color: #ffffff;
+
+    h1 {
+      font-style: italic;
     }
   }
 }
@@ -177,19 +208,18 @@
 
   .corporate-wrapper {
     display: flex;
-    flex: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
     gap: 25px;
-    margin-bottom: 50px;
 
     .corporate {
       background-color: #000000;
       overflow-y: hidden;
 
       .corporate-image {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         overflow: hidden;
 
         img {
@@ -205,13 +235,15 @@
       }
 
       .corporate-details {
-        padding: 30px;
         color: #ffffff;
+        width: 400px;
+        padding: 30px;
       }
     }
   }
 }
 
+/* this is footer section */
 .footer-section {
   background-color: #000000;
   position: relative;

@@ -14,65 +14,148 @@
   }
 }
 
-/* this is event section */
-.event-section {
+/* this is featureContent Section */
+.featureContent-section {
   position: relative;
+
   .content {
     position: relative;
   }
 
-  .event-sub-text {
+  .sub-label {
     text-align: center;
+    margin-bottom: 80px;
+
+    span {
+      font-style: normal;
+    }
+
+    h1 {
+      font-style: italic;
+    }
   }
 
-  .event-sub-text h1 {
-    color: #c4ab1e;
-    font-size: 60px;
-  }
+  .feature-block {
+    border: 10px solid #e5e5e5;
+    margin: 0px 60px;
+    height: 60vh;
+    position: relative;
 
-  .event-img {
-    max-width: 600px;
-    height: 500px;
-    overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
+    .feature-wrapper {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-51%, -40%);
 
-  .event-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+      .feature-image {
+        width: 880px;
+        height: 60vh;
+        overflow: hidden;
 
-  .event-flex-column {
-    text-align: center;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .feature-details {
+        padding: 0px 30px;
+        width: 300px;
+
+        h4 {
+          font-style: italic;
+          margin-bottom: 30px;
+        }
+      }
+    }
   }
 }
 
-/* this is proposal section */
-.proposal-section {
+/* this is blockContent Section */
+.blockContent-section {
+  background-color: #e5e5e5;
   position: relative;
+  margin-top: 100px;
+
   .content {
     position: relative;
   }
-  .proposal-sub-text {
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 50px;
-  }
 
-  .proposal-sub-text span {
-    border-bottom: 2px solid #000000;
-  }
-
-  .proposal-form {
+  .blockContent-wrapper {
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    .blockContent {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+
+      .blockContent-image {
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .blockContent-details {
+        width: 600px;
+        margin: 50px;
+
+        h1 {
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+/* this is request proposal section */
+.requestProposal-section {
+  position: relative;
+
+  .content {
+    position: relative;
   }
 
-  .proposal-form .card {
-    width: 800px;
-    border-radius: 0;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    .image {
+      width: 900px;
+      height: 460px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .card-form {
+      padding: 30px 60px;
+      width: 900px;
+
+      .sub-label {
+        margin-bottom: 30px;
+        font-size: 2rem;
+
+        span {
+          border-bottom: 3px solid #000000;
+        }
+      }
+    }
   }
 }
 
@@ -95,27 +178,7 @@
     font-size: 18px;
   }
 }
-.offcanvas-body ul li a {
-  color: white;
-}
-@media screen and (min-width: 1280px) {
-  .btn-book-now {
-    display: none;
-  }
-  .img-logo {
-    display: none;
-  }
-}
 @media screen and (max-width: 575px) {
-  .offcanvas-body ul li a {
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
-    margin: 10px;
-  }
-  .img-logo-text {
-    display: none;
-  }
   .footer-bottom {
     display: grid;
     text-align: center;
@@ -124,21 +187,4 @@
     font-size: 12px;
     margin-top: 20px;
   }
-  .book-now a {
-    display: none;
-  }
-  .event-section .event-sub-text h1 {
-    font-size: 28px;
-    margin-top: 50px;
-  }
-  .event-section .event-img {
-    height: 200px;
-  }
-  .event-section .event-details p {
-    text-align: justify;
-    margin-top: 50px;
-  }
-}
-hr {
-  color: white;
 }
