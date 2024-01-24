@@ -1,9 +1,10 @@
+/* this is header section */
 .header-section {
   background: linear-gradient(#00000025, #000000a6),
     url("/assets/rooms-and-suites/room-header-section.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 105vh;
   display: flex;
   align-items: center;
   text-align: center;
@@ -13,12 +14,16 @@
     position: relative;
   }
 
-  .header-sub-text h1 {
-    font-size: 100px;
+  .sub-label {
     color: #ffffff;
+
+    h1 {
+      font-size: 50px;
+    }
   }
 }
 
+/* this filter section */
 .filter-section {
   background-color: #dcdcdc;
   position: relative;
@@ -49,19 +54,26 @@
   }
 }
 
+/* this is room section */
 .room-section {
-  .room-title {
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .sub-label {
     text-align: center;
     margin-bottom: 50px;
 
     span {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
 
   .room-wrapper {
     display: flex;
-    flex: row wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -105,8 +117,9 @@
   }
 }
 
+/* this is suite section */
 .suite-section {
-  .suite-title {
+  .sub-label {
     text-align: center;
     margin-bottom: 50px;
 
@@ -161,6 +174,7 @@
   }
 }
 
+/* this is amenities section */
 .amenities-section {
   background-color: #f5f5f5f5;
 
@@ -183,7 +197,6 @@
     .amenities-icon {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
       gap: 10px;
       width: 700px;
 
@@ -200,6 +213,7 @@
   }
 }
 
+/* this is accomodation section */
 .accomodation-section {
   background: linear-gradient(#00000025, #000000a6),
     url("/assets/rooms-and-suites/queen-bed.jpg") center center;
@@ -212,7 +226,7 @@
 
   .accomodation-title {
     color: #ffffff;
-    font-size: 48px;
+    font-size: 50px;
     letter-spacing: 20px;
   }
 
@@ -223,6 +237,7 @@
   }
 }
 
+/* this is footer section */
 .footer-section {
   background-color: #000000;
   position: relative;
@@ -241,40 +256,137 @@
     font-size: 18px;
   }
 }
-
-.offcanvas-body ul li a {
-  color: white;
-}
-@media screen and (min-width: 1280px) {
-  .btn-book-now {
-    display: none;
-  }
-  .img-logo {
-    display: none;
-  }
-}
 @media screen and (max-width: 575px) {
-  .filter-section {
-    display: none;
+  /* this is header section */
+  .header-section {
+    .sub-label {
+      h1 {
+        font-size: 25px;
+      }
+    }
   }
-  .offcanvas-body ul li a {
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
-    margin: 10px;
+
+  /* this is room section */
+  .room-section {
+    .sub-label {
+      margin-top: 50px;
+      span {
+        font-size: 1.5rem;
+      }
+    }
+
+    .room-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .room {
+        .room-image {
+          width: 320px;
+          height: 300px;
+        }
+        .room-details {
+          p {
+            width: 200px;
+          }
+        }
+      }
+    }
   }
-  .img-logo-text {
-    display: none;
+
+  /* this is suite section */
+  .suite-section {
+    .sub-label {
+      margin-top: 50px;
+      span {
+        font-size: 1.5rem;
+      }
+    }
+
+    .suite-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .suite {
+        .suite-image {
+          width: 320px;
+          height: 300px;
+        }
+        .suite-details {
+          p {
+            width: 200px;
+          }
+        }
+      }
+    }
   }
-  .footer-bottom {
-    display: grid;
-    text-align: center;
+
+  /* this is amenities section */
+  .amenities-section {
+    .amenities-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .amenities-title {
+        text-align: center;
+        width: 250px;
+
+        h1 {
+          font-size: 30px;
+        }
+      }
+
+      .amenities-icon {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+
+        .icon {
+          text-align: center;
+          width: 200px;
+          padding: 5px;
+          color: #696969;
+
+          i {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
   }
-  .footer-bottom .social-link-footer span a {
-    font-size: 12px;
-    margin-top: 20px;
+
+  /* this is accomodation section */
+  .accomodation-section {
+    .accomodation-title {
+      font-size: 25px;
+      letter-spacing: normal;
+    }
+    .accomodation-paragraph {
+      font-size: 10px;
+      font-style: italic;
+    }
   }
-  .book-now a {
-    display: none;
+
+  /* this is footer section */
+  .footer-section {
+    .footer-bottom {
+      display: grid;
+      text-align: center;
+
+      .social-link-footer {
+        margin-bottom: 30px;
+        span {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .developed-by-footer {
+        span {
+          font-size: 12px;
+        }
+      }
+    }
   }
 }
