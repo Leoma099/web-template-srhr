@@ -1,0 +1,109 @@
+/* this is header section */
+.header-section {
+  background: linear-gradient(#00000000, #000000c4),
+    url("/assets/room-view/double-bed.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .sub-label {
+    color: #ffffff;
+
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+/* this is horizontal line */
+.hr {
+  background: #e5e5e5;
+  width: 100%;
+  height: 2px;
+  margin-block: 30px;
+}
+
+/* this is room view section */
+.roomView-section {
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    .details {
+      width: 800px;
+      .room-details {
+        .sub-label {
+          margin-bottom: 20px;
+        }
+
+        .icon-label {
+          margin-top: 20px;
+        }
+
+        .roomType-details {
+          margin-top: 50px;
+        }
+      }
+
+      .familyFriend-amenities {
+        .sub-label {
+          margin-top: 50px;
+        }
+      }
+
+      .room-amenities {
+        .sub-label {
+          margin-top: 50px;
+        }
+      }
+
+      .include-suite {
+        .sub-label {
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .roomDate-availability {
+        .sub-label {
+          margin-top: 50px;
+        }
+      }
+    }
+
+    .bookRoom-receipt {
+      box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
+      width: 600px;
+      height: 90vh;
+      .cardReceipt-box {
+        padding: 50px;
+
+        .receipt-form {
+          .total-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          .bookButton {
+          }
+        }
+      }
+    }
+  }
+}

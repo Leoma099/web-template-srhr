@@ -1,0 +1,45 @@
+/* this is header section */
+.header-section {
+  background: linear-gradient(#00000000, #000000c4),
+    url("/assets/checkout/swimming-pool.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .sub-label {
+    color: #ffffff;
+
+    span {
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+/* this is checkout section */
+.checkout-section {
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
+  .sub-label {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .checkout-button {
+    text-align: center;
+  }
+}
