@@ -31,7 +31,7 @@
   }
 
   .guestRoom-label {
-    margin-block: 50px;
+    margin-top: 100px;
     .wrapper {
       display: flex;
       flex-direction: row;
@@ -95,6 +95,7 @@
     justify-content: center;
     gap: 30px;
     .otherRoom {
+      background-color: #000000;
       .image {
         width: 565px;
         height: 400px;
@@ -113,14 +114,11 @@
         align-items: center;
 
         .sub-label {
-          background-color: #000000;
           padding: 20px;
-          width: 339px;
           color: #ffffff;
         }
 
         .room-price {
-          background-color: goldenrod;
           width: 226px;
           height: 152px;
           padding: 60px 50px;

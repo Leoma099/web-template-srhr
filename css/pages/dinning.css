@@ -82,6 +82,7 @@
 
   .dinner-content {
     .wrapper {
+      margin-bottom: 50px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -118,6 +119,7 @@
   }
 
   .fabulous-brunch {
+    margin-bottom: 50px;
     .wrapper {
       display: flex;
       flex-direction: row;
