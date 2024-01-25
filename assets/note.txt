@@ -1,0 +1,81 @@
+Home page
+- first section, adjust gutter middle on columns
+- second section, masyadong plain yung background, Extraordinary text change to Featured Rooms
+- DINNING -> DINING 
+	- make it full width layout
+- SPA & FITNESS 
+	- add button to see more details then next sections ng Spa and Fitness remove
+- Subic Riviera Hotel and Residences section
+	- parang about section siya
+
+
+Accomodations page
+- Gawin mong full row layout
+	- move to first section, about section
+- Meetings and Events and Weddings & Celebration
+	- make one section
+	- title -> Other Services
+	- change layout
+- Amenities remove
+- Upscale lodging section remove
+- Add a section for time of check in and checkout
+
+View Room page
+- Room name bold and make h2
+- Reserve: make h3
+- Column make 8 : 4, use grid system
+
+Restaurant and Bars
+- Coffee, Bar and Restaurant sila
+- so focus mo diyan ang content
+
+Cafe Lounge
+- picture
+- description
+
+Restaurant
+- picture
+- description
+
+- In room dining, pang restaurant lang yan, so dapat under yan ng section ng Restaurant
+-download menu
+
+Contact Us
+- fix layout
+
+Overall -> not yet for presentation.. bukas na yun. tapos aalis pa tayo ngayon hapon....
+
+Di mo din matapos, ang dami
+
+Yung ganyan content under na yan ng Blogs/Articles
+napakita mo na yung ganitong layout, same..
+
+parang naligaw.
+
+mas malaki tignan, mas elegant kase hotel, di naman ganung karamihan ang room types ng hotel.. di naman paminsan more than 10 kaya
+
+kase yung amenities included sa per room
+
+Facilities And Other Activities
+Facilities like swimming pool, billiard pool, basketball court,
+other activities like hiking kung merun, photo ops
+
+Yung sinasabi mong SHopping mall -> Nearby Facilities
+Shopping Mall, Convenience Store.. Pero small information lang yan
+
+sa about us yun
+
+yung mga ganun, kahit di muna, kase magppresent na tayo... dapat merun na
+
+mali yung hierarchy.... dapat title > subtitles
+
+
+h2 -> title
+dapat h3 other subtitles
+other h3 subtitles dapat h4
+
+same layout naman lahat, so dapat gumawa ka ng classes kahit pang isa lang,. reusable yung class para sa iba... parang list na kse yan
+ang ginawa mo gumawa ka pa separately ng ibang class so redundant... kaya ang nangayare pag nagkaroon ng mali sa isa, lahat dapat baguhin mo
+
+wala naman bar content.. dapat may idea ka na sa client nung ginawa mo to... kase specific client na to...
+
