@@ -109,6 +109,20 @@
     }
   }
 }
+@media screen and (max-width: 1920px) {
+  .contactMap-section {
+    .wrapper {
+      .image {
+        width: 1200px;
+        height: 700px;
+      }
+
+      .details {
+        margin-inline: 100px;
+      }
+    }
+  }
+}
 @media screen and (max-width: 575px) {
   .header-section {
     .sub-label {

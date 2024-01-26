@@ -18,79 +18,27 @@
   }
 }
 
-/* this is book table section */
-.bookTable-section {
+/* this is restaurant table section */
+.restaurant-section {
+  margin-bottom: 15%;
   position: relative;
 
   .content {
     position: relative;
   }
 
-  .sub-label {
-    text-align: center;
-    margin-bottom: 100px;
-    span {
-      font-size: 2rem;
-    }
-
-    h1 {
-      font-size: 50px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    p {
-      width: 700px;
-    }
-  }
-
-  .book-wrapper {
+  .wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 50px;
+    gap: 90px;
 
-    .image {
-      width: 800px;
-      height: 500px;
-      overflow: hidden;
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    }
-
-    .details {
-      background-color: #ffffff;
-      width: 600px;
-      box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
-      .card-box {
-        padding: 30px 50px;
-        h1 {
-          margin-bottom: 20px;
-        }
-        p {
-          margin-bottom: 20px;
-          width: 400px;
-        }
-      }
-    }
-  }
-
-  .dinner-content {
-    .wrapper {
-      margin-bottom: 50px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 30px;
-
-      .image {
-        width: 800px;
-        height: 400px;
+    .dining-services {
+      position: relative;
+      .restaurant-img {
+        width: 400px;
+        height: 600px;
         overflow: hidden;
 
         img {
@@ -99,36 +47,13 @@
           object-fit: cover;
         }
       }
-
-      .details {
-        background-color: #ffffff;
-        width: 600px;
-        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
-        .card-box {
-          padding: 30px 50px;
-          h1 {
-            margin-bottom: 20px;
-          }
-          p {
-            margin-bottom: 20px;
-            width: 400px;
-          }
-        }
-      }
-    }
-  }
-
-  .fabulous-brunch {
-    margin-bottom: 50px;
-    .wrapper {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 30px;
-
-      .image {
-        width: 800px;
-        height: 400px;
+      .bars-img {
+        position: absolute;
+        top: 80%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 600px;
         overflow: hidden;
 
         img {
@@ -137,58 +62,17 @@
           object-fit: cover;
         }
       }
-
-      .details {
-        background-color: #ffffff;
-        width: 600px;
-        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
-        .card-box {
-          padding: 30px 50px;
-          h1 {
-            margin-bottom: 20px;
-          }
-          p {
-            margin-bottom: 20px;
-            width: 400px;
-          }
-        }
-      }
     }
-  }
 
-  .lunch-content {
-    .wrapper {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 30px;
+    .description {
+      width: 500px;
 
-      .image {
-        width: 800px;
-        height: 400px;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+      h2 {
+        font-size: 50px;
       }
-
-      .details {
-        background-color: #ffffff;
-        width: 600px;
-        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
-        .card-box {
-          padding: 30px 50px;
-          h1 {
-            margin-bottom: 20px;
-          }
-          p {
-            margin-bottom: 20px;
-            width: 400px;
-          }
-        }
+      p {
+        margin-block: 50px;
+        line-height: 30px;
       }
     }
   }
@@ -277,37 +161,49 @@
       }
     }
   }
+
+  .menu-btn {
+    text-align: center;
+    margin-top: 50px;
+  }
 }
 
-/* this is dinning special section */
-.dinning-special-section {
+/* this is cafe section */
+.cafe-section {
   position: relative;
 
   .content {
     position: relative;
   }
 
-  .dinning-special-sub-text {
-    text-align: center;
-  }
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 
-  .dinning-special-sub-text span {
-    font-size: 3rem;
-  }
-  .dinning-special-sub-text p {
-    font-style: italic;
-  }
+    .image {
+      width: 600px;
+      height: 400px;
+      overflow: hidden;
 
-  .dinning-special-img {
-    height: 390px;
-    overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  .dinning-special-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .description {
+      width: 600px;
+      h2 {
+        font-size: 50px;
+      }
+      p {
+        margin-block: 50px;
+        line-height: 30px;
+      }
+    }
   }
 }
 
@@ -347,205 +243,45 @@
     }
   }
 
-  /* this is book table section */
-  .bookTable-section {
-    .sub-label {
-      margin-top: 50px;
-
-      span {
-        font-size: 1.5rem;
-      }
-
-      h1 {
-        font-size: 25px;
-      }
-
-      p {
-        text-align: justify;
-      }
-    }
-
-    .book-wrapper {
+  /* this is restaurant table section */
+  .restaurant-section {
+    .wrapper {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      margin-bottom: 50px;
+
+      .dining-services {
+        position: relative;
+        .restaurant-img {
+          width: 320px;
+          height: 320px;
+        }
+        .bars-img {
+          display: none;
+        }
+      }
+
+      .description {
+        width: 320px;
+
+        h2 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  /* this is cafe-section */
+  .cafe-section {
+    margin-block: 50px;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
 
       .image {
         width: 320px;
-        height: 200px;
-        overflow: hidden;
       }
-
-      .details {
+      .description {
         width: 320px;
-        .card-box {
-          padding: 30px;
-          h1 {
-            margin-bottom: 20px;
-          }
-          p {
-            margin-bottom: 20px;
-            width: 250px;
-          }
-        }
-      }
-    }
-
-    .dinner-content {
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-bottom: 50px;
-
-        .image {
-          width: 320px;
-          height: 200px;
-          overflow: hidden;
-        }
-
-        .details {
-          width: 320px;
-          .card-box {
-            padding: 30px;
-            h1 {
-              margin-bottom: 20px;
-            }
-            p {
-              margin-bottom: 20px;
-              width: 250px;
-            }
-          }
-        }
-      }
-    }
-
-    .fabulous-brunch {
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-bottom: 50px;
-
-        .image {
-          width: 320px;
-          height: 200px;
-          overflow: hidden;
-        }
-
-        .details {
-          width: 320px;
-          .card-box {
-            padding: 30px;
-            h1 {
-              margin-bottom: 20px;
-            }
-            p {
-              margin-bottom: 20px;
-              width: 250px;
-            }
-          }
-        }
-      }
-    }
-
-    .lunch-content {
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-bottom: 50px;
-
-        .image {
-          width: 320px;
-          height: 200px;
-          overflow: hidden;
-        }
-
-        .details {
-          width: 320px;
-          .card-box {
-            padding: 30px;
-            h1 {
-              margin-bottom: 20px;
-            }
-            p {
-              margin-bottom: 20px;
-              width: 250px;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  /* this is article section */
-  .article-section {
-    .sub-label {
-      margin-top: 50px;
-
-      span {
-        font-size: 1.5rem;
-      }
-
-      h1 {
-        font-size: 25px;
-      }
-    }
-
-    .content-1 {
-      .wrapper {
-        .image {
-          width: 320px;
-          height: 300px;
-        }
-
-        .details {
-          h1 {
-            margin-bottom: 50px;
-          }
-          p {
-            text-align: justify;
-          }
-        }
-      }
-    }
-
-    .content-2 {
-      .wrapper {
-        .image {
-          width: 320px;
-          height: 300px;
-        }
-
-        .details {
-          h1 {
-            margin-bottom: 50px;
-          }
-          p {
-            text-align: justify;
-          }
-        }
-      }
-    }
-  }
-
-  /* this is room dinning section */
-  .roomDinning-section {
-    .sub-label {
-      span {
-        font-size: 1.5rem;
-      }
-      h1 {
-        font-size: 30px;
-      }
-      p {
-        text-align: justify;
       }
     }
   }

@@ -36,12 +36,13 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      gap: 30px;
+      justify-content: center;
+      gap: 20px;
 
       .guestRoom {
         .image {
           margin-bottom: 50px;
-          width: 900px;
+          width: 800px;
           height: 600px;
           overflow: hidden;
 
@@ -68,8 +69,8 @@
     }
 
     .sub-label {
-      width: 800px;
-      margin-inline: 100px;
+      width: 500px;
+      margin-inline: 50px;
 
       h3 {
         font-size: 2rem;
@@ -97,8 +98,8 @@
     .otherRoom {
       background-color: #000000;
       .image {
-        width: 565px;
-        height: 400px;
+        width: 440px;
+        height: 350px;
         overflow: hidden;
 
         img {
@@ -109,19 +110,15 @@
       }
 
       .details {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        .sub-label {
-          padding: 20px;
-          color: #ffffff;
+        color: #ffffff;
+        padding: 20px;
+        span {
+          font-size: 1.5rem;
         }
 
-        .room-price {
-          width: 226px;
-          height: 152px;
-          padding: 60px 50px;
+        p {
+          width: 300px;
+          margin-block: 30px;
         }
       }
     }
@@ -157,104 +154,44 @@
     }
   }
 
-  /* this is room section */
-  .room-section {
-    .sub-label {
-      margin-top: 50px;
-      span {
-        font-size: 1.5rem;
-      }
-    }
-
-    .room-wrapper {
-      display: flex;
-      flex-direction: column;
-
-      .room {
-        .room-image {
-          width: 320px;
-          height: 300px;
-        }
-        .room-details {
-          p {
-            width: 200px;
-          }
-        }
-      }
-    }
-  }
-
-  /* this is suite section */
-  .suite-section {
-    .sub-label {
-      margin-top: 50px;
-      span {
-        font-size: 1.5rem;
-      }
-    }
-
-    .suite-wrapper {
-      display: flex;
-      flex-direction: column;
-
-      .suite {
-        .suite-image {
-          width: 320px;
-          height: 300px;
-        }
-        .suite-details {
-          p {
-            width: 200px;
-          }
-        }
-      }
-    }
-  }
-
-  /* this is amenities section */
-  .amenities-section {
-    .amenities-wrapper {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      .amenities-title {
-        text-align: center;
-        width: 250px;
-
-        h1 {
-          font-size: 30px;
-        }
-      }
-
-      .amenities-icon {
+  /* this is guest room section */
+  .guestRoom-section {
+    margin-bottom: 50px;
+    .guestRoom-label {
+      .wrapper {
         display: flex;
-        flex-direction: column;
-        width: 200px;
+        flex-direction: column-reverse;
+        justify-content: center;
 
-        .icon {
-          text-align: center;
-          width: 200px;
-          padding: 5px;
-          color: #696969;
-
-          i {
-            font-size: 1rem;
+        .guestRoom {
+          .image {
+            width: 320px;
+          }
+          .details {
+            width: 320px;
           }
         }
+      }
+
+      .sub-label {
+        width: 320px;
       }
     }
   }
 
-  /* this is accomodation section */
-  .accomodation-section {
-    .accomodation-title {
-      font-size: 25px;
-      letter-spacing: normal;
-    }
-    .accomodation-paragraph {
-      font-size: 10px;
-      font-style: italic;
+  /* this is other room section */
+  .otherRoom-section {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .otherRoom {
+        width: 365px;
+        margin-bottom: 50px;
+        .image {
+          width: 365px;
+        }
+      }
     }
   }
 

@@ -46,9 +46,15 @@
 
     .details {
       width: 800px;
+      overflow: hidden;
       .room-details {
         .sub-label {
           margin-bottom: 20px;
+
+          h2 {
+            font-size: 50px;
+            font-weight: bold;
+          }
         }
 
         .icon-label {
@@ -57,6 +63,7 @@
 
         .roomType-details {
           margin-top: 50px;
+          width: 700px;
         }
       }
 
@@ -64,11 +71,51 @@
         .sub-label {
           margin-top: 50px;
         }
+
+        .icon {
+          margin-top: 30px;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+
+          .icon-box {
+            background-color: goldenrod;
+            width: 300px;
+            padding-block: 20px;
+            padding-inline: 30px;
+
+            span {
+              i {
+                margin-right: 20px;
+              }
+            }
+          }
+        }
       }
 
       .room-amenities {
         .sub-label {
           margin-top: 50px;
+        }
+
+        .icon {
+          margin-top: 30px;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+
+          .icon-box {
+            background-color: goldenrod;
+            width: 300px;
+            padding-block: 20px;
+            padding-inline: 50px;
+
+            span {
+              i {
+                margin-right: 20px;
+              }
+            }
+          }
         }
       }
 
@@ -88,10 +135,14 @@
 
     .bookRoom-receipt {
       box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
-      width: 600px;
+      width: 400px;
       height: 90vh;
       .cardReceipt-box {
         padding: 50px;
+
+        .sub-label {
+          margin-bottom: 30px;
+        }
 
         .receipt-form {
           .total-wrapper {
@@ -99,10 +150,50 @@
             justify-content: space-between;
             align-items: center;
           }
+        }
+      }
+    }
+  }
+}
 
-          .bookButton {
+@media screen and (max-width: 575px) {
+  .roomView-section {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .details {
+        width: 320px;
+        h2 {
+          width: 320px;
+        }
+        p {
+          width: 320px;
+        }
+
+        .familyFriend-amenities {
+          .icon {
+            display: flex;
+            flex-direction: column;
           }
         }
+
+        .room-amenities {
+          .icon {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+
+        .include-suite {
+          width: 320px;
+        }
+      }
+
+      .bookRoom-receipt {
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
+        width: 320px;
+        height: 110vh;
       }
     }
   }

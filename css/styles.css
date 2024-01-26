@@ -8,6 +8,7 @@
 @import url("/css/components/splide.css");
 @import url("/css/components/loader.css");
 @import url("/css/components/footer.css");
+@import url("/css/components/common-layout.css");
 
 html {
   scroll-behavior: smooth;

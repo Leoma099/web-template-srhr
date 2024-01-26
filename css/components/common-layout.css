@@ -1,0 +1,46 @@
+.sc-common-layout {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    .image {
+      width: 600px;
+      height: 700px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .details {
+      width: 500px;
+      margin-inline: 30px;
+
+      h1 {
+        font-size: 48px;
+      }
+
+      p {
+        margin-block: 50px;
+        line-height: 2rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: goldenrod;
+      }
+    }
+  }
+
+  .reverse-flex-direction {
+    flex-direction: row-reverse;
+  }
+}

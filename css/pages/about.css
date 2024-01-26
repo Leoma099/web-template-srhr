@@ -265,109 +265,22 @@
 /* Tablet or Mobile screen */
 @media screen and (max-width: 575px) {
   .header-section {
-    overflow-y: hidden;
-  }
-  .about-section {
-    overflow-x: hidden;
-  }
-  .dinning-event-section {
-    overflow-x: hidden;
-  }
-  .service-section {
-    overflow-x: hidden;
-  }
-  .content-section {
-    overflow-x: hidden;
-  }
-  .header-btn {
-    display: none;
-  }
-  .room-and-suite-section .carousel-item {
-    height: 300px;
-  }
-  .room-and-suite-section .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-  }
-  .img-logo-text {
-    display: none;
-  }
-  .footer-bottom {
-    display: grid;
-    text-align: center;
-  }
-  .footer-bottom .social-link-footer span a {
-    font-size: 12px;
-    margin-top: 20px;
-  }
-  .offcanvas-body ul li a {
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
-    margin: 10px;
-  }
-  .book-now a {
-    display: none;
-  }
-
-  .about-section .about-details {
-    margin-top: 50px;
-  }
-  .about-section .about-details p {
-    text-align: justify;
-  }
-  .service-section .service-sub-text p {
-    text-align: justify;
-  }
-  .dinning-event-section .dinning-sub-label {
-    margin-top: 50px;
-  }
-  .dinning-event-section .event-sub-label {
-    margin-top: 50px;
-  }
-  .content-section .content-sub-text p {
-    text-align: justify;
-  }
-  .content-section .content-img .content-paragraph {
-    padding: 20px;
-  }
-  .content-section .content-img .content-paragraph p {
-    text-align: justify;
-  }
-  .content-section .content-img img {
-    height: 400px;
-  }
-  .desktop-view {
-    display: none;
-  }
-
-  .dinning-section {
-    position: relative;
-
-    .content {
-      position: relative;
-    }
-
-    .dinning-warpper {
-      display: flex;
-      flex-wrap: wrap;
+    .header-label h1 {
+      font-size: 50px;
+      color: #ffffff;
     }
   }
 
-  .meeting-event-section {
-    position: relative;
+  .overview-section {
+    .overview-block {
+      .overview-wrapper {
+        display: flex;
+        flex-direction: column;
 
-    .content {
-      position: relative;
-    }
-
-    .meeting-event-wrapper {
-      display: flex;
-      flex-wrap: wrap;
+        .overview-video {
+          width: 320px;
+        }
+      }
     }
   }
 }
