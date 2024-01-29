@@ -1,6 +1,12 @@
 .sc-common-layout {
   margin-top: 50px;
   margin-bottom: 100px;
+  position: relative;
+
+  .content {
+    position: relative;
+  }
+
   .wrapper {
     display: flex;
     flex-direction: row;
@@ -40,7 +46,26 @@
     }
   }
 
-  .reverse-flex-direction {
+  .sc-reverse-flex-direction {
     flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sc-common-layout {
+    overflow-x: hidden;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .image {
+        width: 320px;
+        height: 320px;
+      }
+
+      .details {
+        width: 320px;
+      }
+    }
   }
 }

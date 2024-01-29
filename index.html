@@ -48,6 +48,7 @@
         </div>
       </div>
     </section>
+
     <!-- this is navigation menu mobile view section -->
     <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
       <div class="container">
@@ -184,7 +185,7 @@
         data-aos-once="true"
         data-aos-delay="270"
       >
-        <div class="header-label">
+        <div class="sub-label">
           <span><strong>WELCOME TO</strong></span>
           <h1>SUBIC RIVIERA HOTEL AND RESIDENCES</h1>
         </div>
@@ -249,60 +250,63 @@
     </section>
 
     <!-- this is accomodation section -->
-    <section class="sc-section accomodation-section">
-      <div class="sub-label">
-        <span><strong>Featured Rooms</strong></span>
-        <h3>Step into elegance, where every detail is a masterpiece.</h3>
-      </div>
-      <div class="wrapper">
-        <div class="accomodation">
-          <div class="image">
-            <img
-              src="/assets/index/accomodations/superior-deluxe.jpg"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-          <div class="details">
-            <h1>Double Bed:</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-              fuga ducimus perspiciatis, quasi earum beatae incidunt ab non
-              laborum commodi.
-            </p>
-            <a class="sc-btn sc-btn-white" href="">View room</a>
-          </div>
+    <section class="sc-section sc-default-card">
+      <div class="container p-4">
+        <div class="sub-label">
+          <span><strong>Featured Rooms</strong></span>
+          <h2>Step into elegance, where every detail is a masterpiece.</h2>
         </div>
-        <div class="accomodation">
-          <div class="image">
-            <img src="/assets/index/king-bed.jpg" class="img-fluid" alt="" />
+        <div class="wrapper">
+          <div class="default-card">
+            <div class="image">
+              <img
+                src="/assets/rooms-and-suites/double-bed.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="description">
+              <h3>Double bed</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                alias.
+              </p>
+              <a class="sc-btn sc-btn-white" href="">View room</a>
+            </div>
           </div>
-          <div class="details">
-            <h1>Superior Bed:</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-              fuga ducimus perspiciatis, quasi earum beatae incidunt ab non
-              laborum commodi.
-            </p>
-            <a class="sc-btn sc-btn-white" href="">View room</a>
+          <div class="default-card">
+            <div class="image">
+              <img
+                src="/assets/rooms-and-suites/single-bed.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="description">
+              <h3>Single bed</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                alias.
+              </p>
+              <a class="sc-btn sc-btn-white" href="">View room</a>
+            </div>
           </div>
-        </div>
-        <div class="accomodation">
-          <div class="image">
-            <img
-              src="/assets/index/accomodations/value-plus.jpg"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-          <div class="details">
-            <h1>Queen Size Bed:</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-              fuga ducimus perspiciatis, quasi earum beatae incidunt ab non
-              laborum commodi.
-            </p>
-            <a class="sc-btn sc-btn-white" href="">View room</a>
+          <div class="default-card">
+            <div class="image">
+              <img
+                src="/assets/rooms-and-suites/junior-suite-bed.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="description">
+              <h3>Junior bed</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                alias.
+              </p>
+              <a class="sc-btn sc-btn-white" href="">View room</a>
+            </div>
           </div>
         </div>
       </div>
@@ -310,7 +314,13 @@
 
     <!-- this is dining section -->
     <section class="dinning-section">
-      <div class="wrapper">
+      <div
+        class="wrapper"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-once="true"
+        data-aos-delay="250"
+      >
         <div class="image">
           <img
             src="/assets/index/fancy-restaurant.jpg"
@@ -334,12 +344,24 @@
     <!-- this is other service section -->
     <section class="sc-section otherService-section">
       <div class="container p-4">
-        <div class="event">
-          <div class="event-wrapper">
-            <div class="image">
+        <div class="sc-common-layout">
+          <div class="wrapper">
+            <div
+              class="image"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
               <img src="/assets/index/meeting.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="details">
+            <div
+              class="details"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
               <h1>Meeting Room:</h1>
               <h1>
                 Where ideas ignite and <br />
@@ -355,16 +377,28 @@
             </div>
           </div>
         </div>
-        <div class="celebration">
-          <div class="celebration-wrapper">
-            <div class="image">
+        <div class="sc-common-layout">
+          <div class="wrapper sc-reverse-flex-direction">
+            <div
+              class="image"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
               <img
                 src="/assets/index/wedding-event.jpg"
                 class="img-fluid"
                 alt=""
               />
             </div>
-            <div class="details">
+            <div
+              class="details"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
               <h1>Wedding:</h1>
               <h1>
                 Two hearts, one soul. <br />
@@ -409,7 +443,13 @@
           <span><strong>FREQUENTLY ASKED QUESTIONS</strong></span>
         </div>
         <div class="faq">
-          <div class="faq-wrapper">
+          <div
+            class="faq-wrapper"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="400"
+          >
             <div
               class="faq-question"
               data-bs-toggle="collapse"
@@ -427,7 +467,13 @@
             <hr style="color: black" />
           </div>
 
-          <div class="faq-wrapper">
+          <div
+            class="faq-wrapper"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
             <div
               class="faq-question"
               data-bs-toggle="collapse"
@@ -451,7 +497,12 @@
             <hr style="color: black" />
           </div>
 
-          <div class="faq-wrapper">
+          <div
+            class="faq-wrapper"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             <div
               class="faq-question"
               data-bs-toggle="collapse"
