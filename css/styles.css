@@ -7,3 +7,25 @@
 @import url("/css/components/nav-menu.css");
 @import url("/css/components/splide.css");
 @import url("/css/components/loader.css");
+@import url("/css/components/footer.css");
+@import url("/css/components/common-layout.css");
+@import url("/css/components/default-card.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 20px;
+}
+
+hr {
+  color: white;
+}
