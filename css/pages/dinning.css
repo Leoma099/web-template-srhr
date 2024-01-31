@@ -243,6 +243,7 @@
 @media screen and (max-width: 575px) {
   /* this is header section */
   .header-section {
+    overflow: hidden;
     .sub-label {
       h1 {
         font-size: 50px;
@@ -252,6 +253,7 @@
 
   /* this is resto bar section */
   .restoBar-section {
+    overflow: hidden;
     .wrapper {
       margin-top: 50px;
       display: flex;
@@ -286,8 +288,14 @@
     }
   }
 
+  /* this is article section */
+  .article-section {
+    overflow: hidden;
+  }
+
   /* this is cafe-section */
   .cafe-section {
+    overflow: hidden;
     margin-block: 50px;
     .wrapper {
       display: flex;

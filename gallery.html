@@ -19,30 +19,31 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/plugins/splide.min.css" />
     <link rel="stylesheet" href="/css/pages/gallery.css" />
+    <link rel="stylesheet" href="/css/plugins/aos.min.css" />
   </head>
   <body>
     <!-- this is loader section -->
     <section class="loader-section">
       <div class="loader-wrapper">
-        <div
-          class="container p-4"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
-          <div class="text-center sc-text-light-color">
-            <img
-              src="/assets/temporarily-logo.png"
-              class="img-fluid"
-              width="70"
-              alt=""
-            />
-            <img
-              src="/assets/temporarily-logo-text.png"
-              class="img-fluid"
-              width="200"
-              alt=""
-            />
+        <div class="container p-4">
+          <div class="text-center d-lg-grid justify-content-center">
+            <div>
+              <img
+                src="/assets/temporarily-logo.png"
+                class="img-fluid"
+                width="100"
+                alt=""
+              />
+            </div>
+            <br />
+            <div>
+              <img
+                src="/assets/temporarily-logo-text.png"
+                class="img-fluid"
+                width="200"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -174,7 +175,13 @@
     <!-- this is header section -->
     <section class="sc-section header-section">
       <div class="container p-4">
-        <div class="header-label">
+        <div
+          class="header-label"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="270"
+        >
           <h1>Gallery</h1>
         </div>
       </div>
@@ -392,5 +399,8 @@
     <script src="/js/plugins/jquery.min.js"></script>
     <script src="/js/plugins/scroll.js"></script>
     <script src="/js/components/loder.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/components/aos.js"></script>
+    <script src="/js/components/collapse-icon.js"></script>
   </body>
 </html>
