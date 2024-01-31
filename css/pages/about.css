@@ -1,11 +1,11 @@
+/* this is header section */
 .header-section {
   background: linear-gradient(#00000000, #00000045),
     url("/assets/about-us/riviera-hotel-building.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  width: 100%;
-  height: 100vh;
+  height: 105vh;
   display: flex;
   align-items: center;
   text-align: center;
@@ -13,37 +13,6 @@
   .header-label h1 {
     font-size: 100px;
     color: #ffffff;
-  }
-}
-
-.about-section {
-  .about-title {
-    text-align: center;
-  }
-
-  .about-title span {
-    font-size: 20px;
-  }
-
-  .about-image {
-    margin: 50px 0px;
-    text-align: center;
-    height: 300px;
-    overflow: hidden;
-  }
-
-  .about-image img {
-    width: 30%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .about-article {
-    text-align: justify;
-  }
-
-  .about-article p {
-    text-align: justify;
   }
 }
 
@@ -58,117 +27,32 @@
   .sub-label {
     text-align: center;
     margin-bottom: 50px;
+
+    h2 {
+      font-size: 50px;
+    }
+
+    p {
+      width: 800px;
+      padding-block: 20px;
+    }
   }
 
-  /* this is overview block */
   .overview-block {
-    margin-bottom: 20%;
-
-    .overview-wrapper {
-      display: flex;
-      flex-direction: row;
-
-      .video {
-        background-color: goldenrod;
-        padding: 20px;
-      }
-
-      .overview-video {
-        width: 900px;
-        height: 460px;
-        overflow: hidden;
-
-        video {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-
-      .overview-details {
-        width: 400px;
-        padding: 0px 50px;
-      }
+    text-align: center;
+    video {
+      width: 800px;
     }
-  }
+    .description {
+      margin-block: 50px;
 
-  /* this is article block */
-  .article-block {
-    margin-bottom: 20%;
-
-    .article-box {
-      background: goldenrod;
-      width: 650px;
-      height: 200px;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      z-index: -1;
-    }
-
-    .article-wrapper {
-      display: flex;
-      align-items: center;
-      gap: 25px;
-
-      .article-image {
-        width: 900px;
-        height: 400px;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+      h2 {
+        font-size: 50px;
       }
 
-      .article-details {
-        width: 600px;
-        padding: 10px 40px;
-
-        h1 {
-          margin-bottom: 60px;
-          font-style: italic;
-          font-weight: bold;
-        }
-      }
-    }
-  }
-
-  /* this is blog block */
-  .blog-block {
-    .blog-wrapper {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      gap: 25px;
-
-      .blog {
-        background-color: #000000;
-        overflow-y: hidden;
-
-        .blog-image {
-          width: 400px;
-          height: 300px;
-          overflow: hidden;
-
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: filter 0.5s, transform 0.5s ease-out;
-          }
-
-          img:hover {
-            transform: scale(1.2);
-          }
-        }
-
-        .blog-details {
-          padding: 30px;
-          color: #ffffff;
-        }
+      p {
+        width: 800px;
+        padding-block: 20px;
       }
     }
   }
@@ -195,50 +79,12 @@
   }
 }
 
-/* this is corporate section */
-.corporate-section {
+/* this is facilities section */
+.facilities-section {
   .sub-label {
     text-align: center;
-    margin-bottom: 50px;
-
-    span {
-      font-size: 2rem;
-    }
-  }
-
-  .corporate-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 25px;
-
-    .corporate {
-      background-color: #000000;
-      overflow-y: hidden;
-
-      .corporate-image {
-        width: 400px;
-        height: 400px;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: filter 0.5s, transform 0.5s ease-out;
-        }
-
-        img:hover {
-          transform: scale(1.2);
-        }
-      }
-
-      .corporate-details {
-        color: #ffffff;
-        width: 400px;
-        padding: 30px;
-      }
+    h2 {
+      font-size: 48px;
     }
   }
 }
@@ -264,6 +110,7 @@
 }
 /* Tablet or Mobile screen */
 @media screen and (max-width: 575px) {
+  /* this is header section */
   .header-section {
     .header-label h1 {
       font-size: 50px;
@@ -271,15 +118,49 @@
     }
   }
 
+  /* this is overview section  */
   .overview-section {
-    .overview-block {
-      .overview-wrapper {
-        display: flex;
-        flex-direction: column;
+    .sub-label {
+      margin-block: 50px;
 
-        .overview-video {
-          width: 320px;
+      h2 {
+        font-size: 35px;
+      }
+      span {
+        font-size: 0.8rem;
+      }
+      p {
+        width: 320px;
+        padding-block: 20px;
+        text-align: justify;
+      }
+    }
+    .overview-block {
+      video {
+        width: 320px;
+      }
+      .description {
+        h2 {
+          font-size: 35px;
         }
+        p {
+          width: 320px;
+          padding-block: 20px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  /* this is facilities section */
+  .facilities-section {
+    .sub-label {
+      margin-block: 50px;
+      h2 {
+        font-size: 35px;
+      }
+      span {
+        font-size: 0.8rem;
       }
     }
   }

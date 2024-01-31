@@ -1,21 +1,4 @@
 .sc-default-card {
-  position: relative;
-
-  .content {
-    position: relative;
-  }
-
-  .sub-label {
-    text-align: center;
-    span {
-      font-size: 2rem;
-    }
-    h2 {
-      font-size: 38px;
-      margin-top: 20px;
-    }
-  }
-
   .wrapper {
     display: flex;
     flex-direction: row;
@@ -71,7 +54,7 @@
 
       .default-card {
         .image {
-          width: 317px;
+          width: 320px;
           height: 300px;
         }
 

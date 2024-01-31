@@ -48,130 +48,127 @@
         </div>
       </div>
     </section>
-    <!-- this is navigation menu mobile view section -->
-    <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
-      <div class="container">
-        <a class="navbar-brand" href="/index.html"
-          ><img
-            class="img-logo-text"
-            src="/assets/temporarily-logo-text.png"
-            width="200"
-            alt="" />
-          <img
-            class="img-logo"
-            src="/assets/temporarily-logo.png"
-            width="50"
-            alt=""
-        /></a>
-        <div class="d-flex justify-content-between align-items-center">
-          <div>
-            <button
-              class="navbar-toggler border-0 rounded-0 shadow-none"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
-              <span class="sc-text-white"
-                ><i class="fs-2 fas fa-bars"></i
-              ></span>
-            </button>
+
+    <!-- this is navigation menu -->
+    <nav class="nav-section fixed-top z-2 bg-color">
+      <div class="container p-4">
+        <!-- this is desktop view -->
+        <div class="desktop-view">
+          <div class="text-logo">
+            <a href="/index.html">
+              <img src="/assets/temporarily-logo-text.png" alt="" />
+            </a>
           </div>
-          <div class="btn-book-now">
-            <div class="d-flex align-items-center">
-              <a class="sc-btn sc-btn-white" href="">Book Now</a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="offcanvas offcanvas-start"
-          tabindex="1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header"></div>
-          <div class="offcanvas-body">
-            <div class="text-end">
-              <button
-                type="button"
-                class="btn-close border-0 shadow-none"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/room.html"
-                  ><small>ACCOMODATION</small></a
-                >
+          <div class="nav-menu">
+            <ul>
+              <li>
+                <a href="/room.html">ACCOMODATION</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/dinning.html"
-                  ><small>DINNING</small></a
-                >
+              <li>
+                <a href="/dinning.html">DINNING</a>
               </li>
-              <li class="nav-item">
-                <a
-                  class="sc-nav-link sc-text-white"
-                  href="/meeting-and-event.html"
-                  ><small>MEETINGS & EVENTS</small></a
-                >
+              <li>
+                <a href="/meeting-and-event.html">MEETINGS & EVENTS</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/wedding.html"
-                  ><small>WEDDINGS & EVENTS</small></a
-                >
+              <li>
+                <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/gallery.html"
-                  ><small>GALLERY</small></a
-                >
+              <li>
+                <a href="/gallery.html">GALLERY</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/contact.html"
-                  ><small>CONTACT US</small></a
-                >
+              <li>
+                <a href="/contact.html">CONTACT US</a>
+              </li>
+              <li>
+                <a class="sc-btn sc-btn-white" href="/checkout.html"
+                  ><i class="fas fa-book-open"></i
+                ></a>
               </li>
             </ul>
-            <div class="d-flex align-items-center book-now">
-              <a class="sc-btn sc-btn-white" href="">Book Now</a>
+          </div>
+        </div>
+        <!-- this is mobile view -->
+        <div class="mobile-view">
+          <div class="icon-logo">
+            <a href="/index.html">
+              <img src="/assets/temporarily-logo.png" alt="" />
+            </a>
+          </div>
+          <div class="menu-icon">
+            <div class="d-flex align-items-center">
+              <button
+                class="navbar-toggler border-0 rounded-0 shadow-none"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="sc-text-white"
+                  ><i class="fs-2 fas fa-bars"></i
+                ></span>
+              </button>
+              <a class="sc-btn sc-btn-white ms-3" href="/checkout.html"
+                ><i class="fas fa-book-open"></i
+              ></a>
+            </div>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header"></div>
+              <div class="offcanvas-body">
+                <div class="text-end">
+                  <button
+                    type="button"
+                    class="btn-close border-0 shadow-none"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/room.html"
+                      ><small>ACCOMODATION</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/dinning.html"
+                      ><small>DINNING</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="sc-nav-link sc-text-white"
+                      href="/meeting-and-event.html"
+                      ><small>MEETINGS & EVENTS</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/wedding.html"
+                      ><small>WEDDINGS & EVENTS</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/gallery.html"
+                      ><small>GALLERY</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/contact.html"
+                      ><small>CONTACT US</small></a
+                    >
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center book-now">
+                  <a class="sc-btn sc-btn-white" href="">Book Now</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
-
-    <!-- this is navigation desktop view section -->
-    <nav class="nav-section fixed-top z-2 bg-color desktop-view">
-      <div class="nav-control">
-        <div class="nav-logo">
-          <a href="/index.html">
-            <img src="/assets/temporarily-logo-text.png" alt="" />
-          </a>
-        </div>
-      </div>
-      <div class="nav-menu">
-        <ul>
-          <li>
-            <a href="/room.html">ACCOMODATION</a>
-          </li>
-          <li>
-            <a href="/dinning.html">DINNING</a>
-          </li>
-          <li>
-            <a href="/meeting-and-event.html">MEETINGS & EVENTS</a>
-          </li>
-          <li>
-            <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
-          </li>
-          <li>
-            <a href="/gallery.html">GALLERY</a>
-          </li>
-          <li>
-            <a href="/contact.html">CONTACT US</a>
-          </li>
-        </ul>
       </div>
     </nav>
 
@@ -190,132 +187,39 @@
       </div>
     </section>
 
-    <!-- thi is overview-section -->
+    <!-- this is overview section -->
     <section class="sc-section overview-section">
-      <div class="container p-4">
+      <div class="contaier p-4">
         <div class="sub-label">
-          <span><strong>AN OVERVIEW OF</strong></span>
-          <h1>Subic Bay Hotel and Residences</h1>
+          <h2><strong>Get to know us</strong></h2>
+          <span>Discover Our Vision, Share Our Values</span>
+          <div class="d-flex justify-content-center">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              totam dicta cupiditate ab? Aliquam tempora maxime accusantium,
+              dolorem id in perferendis sapiente quae? Sunt doloremque
+              molestias, magnam quam dolores beatae.
+            </p>
+          </div>
         </div>
         <div class="overview-block">
-          <div class="overview-wrapper">
-            <div class="overview-video video">
-              <video controls loop autoplay controlsList="nodownload">
-                <source
-                  src="/assets/about-us/sbhr-video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support HTML video.
-              </video>
-            </div>
-            <div class="overview-details">
-              <h3>Company Overview</h3>
-              <br />
+          <video controls loop autoplay controlsList="nodownload">
+            <source src="/assets/about-us/sbhr-video.mp4" type="video/mp4" />
+            Your browser does not support HTML video.
+          </video>
+          <div class="description">
+            <h2>
+              <strong>Story of Subic Riviera Hotel and Residences</strong>
+            </h2>
+            <div class="d-flex justify-content-center">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-                maiores. Eveniet earum sequi molestiae eum illo quis, porro
-                ducimus architecto delectus deleniti itaque a possimus eligendi
-                distinctio esse, aut adipisci. Hic, itaque pariatur illum at
-                animi, accusantium ducimus, dolore perferendis voluptas
-                voluptate sequi incidunt. Inventore eaque dolores deserunt
-                dignissimos nesciunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                excepturi, architecto ex debitis perferendis repellat eos iusto
+                voluptatibus ipsa commodi, dolor eum id temporibus non sed, odit
+                repudiandae voluptatum laudantium tempora fugit sapiente? In
+                fugit commodi animi cupiditate quam ratione maxime dolores
+                quidem. Nulla minima alias rem accusamus, dolore optio!
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="article-block">
-          <div class="article-box"></div>
-          <div class="article-wrapper">
-            <div class="article-image">
-              <img src="/assets/about-us/resort.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="article-details">
-              <h1>One Magical Island. Five Extraordinary Resorts</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis eius mollitia aspernatur voluptates nesciunt qui
-                iure nisi. Vitae, inventore? Doloribus, exercitationem ea quia
-                assumenda cumque error a perspiciatis, magnam omnis nihil ex
-                amet itaque quas veniam iusto aperiam id quos. Odit placeat
-                repellat a laudantium magni sapiente possimus alias voluptatum.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="blog-block">
-          <div class="blog-wrapper">
-            <div class="blog">
-              <div class="blog-image">
-                <img
-                  src="/assets/about-us/riviera-hotel-building.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="blog-details">
-                <span
-                  ><i class="fas fa-calendar-days me-3"></i>13 August 2023</span
-                >
-                <br />
-                <br />
-                <h4>The Best Times to Visit SRHR</h4>
-                <br />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur <br />
-                  adipisicing elit. Repellat, odit.
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <div class="blog-image">
-                <img
-                  src="/assets/about-us/life-is-like-a-journey.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="blog-details">
-                <span
-                  ><i class="fas fa-calendar-days me-3"></i>22 January
-                  2024</span
-                >
-                <br />
-                <br />
-                <h4>
-                  Five Reasons SRHR is <br />
-                  Perfect for Family Vacations
-                </h4>
-                <br />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur <br />
-                  adipisicing elit. Repellat, odit.
-                </p>
-              </div>
-            </div>
-            <div class="blog">
-              <div class="blog-image">
-                <img
-                  src="/assets/about-us/swimming-pool.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="blog-details">
-                <span
-                  ><i class="fas fa-calendar-days me-3"></i>18 March 2024</span
-                >
-                <br />
-                <br />
-                <h4>
-                  Five Reasons why you should <br />
-                  choose SRHR for your honeymoon
-                </h4>
-                <br />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur <br />
-                  adipisicing elit. Repellat, odit.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -331,54 +235,62 @@
       </div>
     </section>
 
-    <!-- this is corporate section -->
-    <section class="sc-section corporate-section">
+    <!-- this is our facilities -->
+    <section class="sc-section facilities-section">
       <div class="container p-4">
         <div class="sub-label">
-          <span><strong>CORPORATE</strong></span>
-          <h1>Executive</h1>
+          <h2><strong>Discover Our Facilities</strong></h2>
+          <span>Where convenience meet luxury</span>
         </div>
-        <div class="corporate-wrapper">
-          <div class="corporate">
-            <div class="corporate-image">
-              <img
-                src="/assets/about-us/director.jpg"
-                class="img-fluid"
-                alt=""
-              />
+        <div class="sc-default-card">
+          <div class="wrapper">
+            <div class="default-card">
+              <div class="image">
+                <img
+                  src="/assets/about-us/island.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <h3>Jeju Island</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio, corporis!
+                </p>
+              </div>
             </div>
-            <div class="corporate-details">
-              <h4>Mr. John Doe</h4>
-              <p>Corporate</p>
-              <span>Chief Executive Officer</span>
+            <div class="default-card">
+              <div class="image">
+                <img
+                  src="/assets/about-us/resort.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <h3>Resort Palm Tree</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio, corporis!
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="corporate">
-            <div class="corporate-image">
-              <img
-                src="/assets/about-us/bill-gates-head.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="corporate-details">
-              <h4>Mr. James Bond</h4>
-              <p>Corporate</p>
-              <span>Director</span>
-            </div>
-          </div>
-          <div class="corporate">
-            <div class="corporate-image">
-              <img
-                src="/assets/about-us/manager.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="corporate-details">
-              <h4>Mr. George Deff</h4>
-              <p>Corporate</p>
-              <span>Supervisor</span>
+            <div class="default-card">
+              <div class="image">
+                <img
+                  src="/assets/about-us/swimming-pool.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="description">
+                <h3>Rooftop Swimming Pool</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio, corporis!
+                </p>
+              </div>
             </div>
           </div>
         </div>

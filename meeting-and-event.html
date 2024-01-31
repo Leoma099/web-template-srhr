@@ -47,130 +47,127 @@
         </div>
       </div>
     </section>
-    <!-- this is navigation menu mobile view section -->
-    <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
-      <div class="container">
-        <a class="navbar-brand" href="/index.html"
-          ><img
-            class="img-logo-text"
-            src="/assets/temporarily-logo-text.png"
-            width="200"
-            alt="" />
-          <img
-            class="img-logo"
-            src="/assets/temporarily-logo.png"
-            width="50"
-            alt=""
-        /></a>
-        <div class="d-flex justify-content-between align-items-center">
-          <div>
-            <button
-              class="navbar-toggler border-0 rounded-0 shadow-none"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
-              <span class="sc-text-white"
-                ><i class="fs-2 fas fa-bars"></i
-              ></span>
-            </button>
+
+    <!-- this is navigation menu -->
+    <nav class="nav-section fixed-top z-2 bg-color">
+      <div class="container p-4">
+        <!-- this is desktop view -->
+        <div class="desktop-view">
+          <div class="text-logo">
+            <a href="/index.html">
+              <img src="/assets/temporarily-logo-text.png" alt="" />
+            </a>
           </div>
-          <div class="btn-book-now">
-            <div class="d-flex align-items-center">
-              <a class="sc-btn sc-btn-white" href="">Book Now</a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="offcanvas offcanvas-start"
-          tabindex="1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header"></div>
-          <div class="offcanvas-body">
-            <div class="text-end">
-              <button
-                type="button"
-                class="btn-close border-0 shadow-none"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/room.html"
-                  ><small>ACCOMODATION</small></a
-                >
+          <div class="nav-menu">
+            <ul>
+              <li>
+                <a href="/room.html">ACCOMODATION</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/dinning.html"
-                  ><small>DINNING</small></a
-                >
+              <li>
+                <a href="/dinning.html">DINNING</a>
               </li>
-              <li class="nav-item">
-                <a
-                  class="sc-nav-link sc-text-white"
-                  href="/meeting-and-event.html"
-                  ><small>MEETINGS & EVENTS</small></a
-                >
+              <li>
+                <a href="/meeting-and-event.html">MEETINGS & EVENTS</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/wedding.html"
-                  ><small>WEDDINGS & EVENTS</small></a
-                >
+              <li>
+                <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/gallery.html"
-                  ><small>GALLERY</small></a
-                >
+              <li>
+                <a href="/gallery.html">GALLERY</a>
               </li>
-              <li class="nav-item">
-                <a class="sc-nav-link sc-text-white" href="/contact.html"
-                  ><small>CONTACT US</small></a
-                >
+              <li>
+                <a href="/contact.html">CONTACT US</a>
+              </li>
+              <li>
+                <a class="sc-btn sc-btn-white" href="/checkout.html"
+                  ><i class="fas fa-book-open"></i
+                ></a>
               </li>
             </ul>
-            <div class="d-flex align-items-center book-now">
-              <a class="sc-btn sc-btn-white" href="">Book Now</a>
+          </div>
+        </div>
+        <!-- this is mobile view -->
+        <div class="mobile-view">
+          <div class="icon-logo">
+            <a href="/index.html">
+              <img src="/assets/temporarily-logo.png" alt="" />
+            </a>
+          </div>
+          <div class="menu-icon">
+            <div class="d-flex align-items-center">
+              <button
+                class="navbar-toggler border-0 rounded-0 shadow-none"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="sc-text-white"
+                  ><i class="fs-2 fas fa-bars"></i
+                ></span>
+              </button>
+              <a class="sc-btn sc-btn-white ms-3" href="/checkout.html"
+                ><i class="fas fa-book-open"></i
+              ></a>
+            </div>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header"></div>
+              <div class="offcanvas-body">
+                <div class="text-end">
+                  <button
+                    type="button"
+                    class="btn-close border-0 shadow-none"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/room.html"
+                      ><small>ACCOMODATION</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/dinning.html"
+                      ><small>DINNING</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="sc-nav-link sc-text-white"
+                      href="/meeting-and-event.html"
+                      ><small>MEETINGS & EVENTS</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/wedding.html"
+                      ><small>WEDDINGS & EVENTS</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/gallery.html"
+                      ><small>GALLERY</small></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="sc-nav-link sc-text-white" href="/contact.html"
+                      ><small>CONTACT US</small></a
+                    >
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center book-now">
+                  <a class="sc-btn sc-btn-white" href="">Book Now</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
-
-    <!-- this is navigation desktop view section -->
-    <nav class="nav-section fixed-top z-2 bg-color desktop-view">
-      <div class="nav-control">
-        <div class="nav-logo">
-          <a href="/index.html">
-            <img src="/assets/temporarily-logo-text.png" alt="" />
-          </a>
-        </div>
-      </div>
-      <div class="nav-menu">
-        <ul>
-          <li>
-            <a href="/room.html">ACCOMODATION</a>
-          </li>
-          <li>
-            <a href="/dinning.html">DINNING</a>
-          </li>
-          <li>
-            <a href="/meeting-and-event.html">MEETINGS & EVENTS</a>
-          </li>
-          <li>
-            <a href="/wedding.html">WEDDINGS & CELEBRATIONS</a>
-          </li>
-          <li>
-            <a href="/gallery.html">GALLERY</a>
-          </li>
-          <li>
-            <a href="/contact.html">CONTACT US</a>
-          </li>
-        </ul>
       </div>
     </nav>
 
