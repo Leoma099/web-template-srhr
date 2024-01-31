@@ -19,34 +19,36 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/plugins/splide.min.css" />
     <link rel="stylesheet" href="/css/pages/wedding.css" />
+    <link rel="stylesheet" href="/css/plugins/aos.min.css" />
   </head>
   <body>
     <!-- this is loader section -->
     <section class="loader-section">
       <div class="loader-wrapper">
-        <div
-          class="container p-4"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
-          <div class="text-center sc-text-light-color">
-            <img
-              src="/assets/temporarily-logo.png"
-              class="img-fluid"
-              width="70"
-              alt=""
-            />
-            <img
-              src="/assets/temporarily-logo-text.png"
-              class="img-fluid"
-              width="200"
-              alt=""
-            />
+        <div class="container p-4">
+          <div class="text-center d-lg-grid justify-content-center">
+            <div>
+              <img
+                src="/assets/temporarily-logo.png"
+                class="img-fluid"
+                width="100"
+                alt=""
+              />
+            </div>
+            <br />
+            <div>
+              <img
+                src="/assets/temporarily-logo-text.png"
+                class="img-fluid"
+                width="200"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- this is navigation menu mobile view section -->
     <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
       <div class="container">
@@ -177,7 +179,13 @@
     <!-- this is head section -->
     <section class="sc-section header-section">
       <div class="container p-4">
-        <div class="sub-label">
+        <div
+          class="sub-label"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="250"
+        >
           <h1>Weddings</h1>
           <h1>&</h1>
           <h1>Celebrations</h1>
@@ -202,10 +210,22 @@
         </div>
         <div class="feature-block">
           <div class="feature-wrapper">
-            <div class="feature-image">
+            <div
+              class="feature-image"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="250"
+            >
               <img src="/assets/wedding/wedding.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="feature-details">
+            <div
+              class="feature-details"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="250"
+            >
               <h4>Wedding brought to life</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -223,7 +243,13 @@
     <section class="sc-section blockContent-section">
       <div class="container p-4">
         <div class="blockContent-wrapper">
-          <div class="blockContent">
+          <div
+            class="blockContent"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="200"
+          >
             <div class="blockContent-image order-md-1">
               <img
                 src="/assets/wedding/wedding-venue.jpg"
@@ -241,7 +267,13 @@
               </p>
             </div>
           </div>
-          <div class="blockContent">
+          <div
+            class="blockContent"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
             <div class="blockContent-image order-md-2">
               <img
                 src="/assets/wedding/seamless-stays.jpg"
@@ -259,7 +291,13 @@
               </p>
             </div>
           </div>
-          <div class="blockContent">
+          <div
+            class="blockContent"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="400"
+          >
             <div class="blockContent-image order-md-1">
               <img
                 src="/assets/wedding/local-wedding.jpg"
@@ -490,5 +528,7 @@
     <script src="/js/plugins/jquery.min.js"></script>
     <script src="/js/plugins/scroll.js"></script>
     <script src="/js/components/loder.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/components/aos.js"></script>
   </body>
 </html>

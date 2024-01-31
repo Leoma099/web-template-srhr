@@ -164,6 +164,7 @@
 @media screen and (max-width: 575px) {
   /* this is header section */
   .header-section {
+    overflow: hidden;
     .sub-label {
       h1 {
         font-size: 25px;
@@ -173,6 +174,7 @@
 
   /* this is feature content section */
   .featureContent-section {
+    overflow: hidden;
     .sub-label {
       span {
         font-size: 1rem;
@@ -211,6 +213,7 @@
 
   /* this is block content section */
   .blockContent-section {
+    overflow: hidden;
     .blockContent-wrapper {
       margin-top: 50px;
       margin-bottom: 50px;
@@ -234,6 +237,7 @@
 
   /* this is request proposal section */
   .requestProposal-section {
+    overflow: hidden;
     .wrapper {
       display: flex;
       flex-direction: column;

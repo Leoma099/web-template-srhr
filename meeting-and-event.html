@@ -19,34 +19,36 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/plugins/splide.min.css" />
     <link rel="stylesheet" href="/css/pages/event.css" />
+    <link rel="stylesheet" href="/css/plugins/aos.min.css" />
   </head>
   <body>
     <!-- this is loader section -->
     <section class="loader-section">
       <div class="loader-wrapper">
-        <div
-          class="container p-4"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
-          <div class="text-center sc-text-light-color">
-            <img
-              src="/assets/temporarily-logo.png"
-              class="img-fluid"
-              width="70"
-              alt=""
-            />
-            <img
-              src="/assets/temporarily-logo-text.png"
-              class="img-fluid"
-              width="200"
-              alt=""
-            />
+        <div class="container p-4">
+          <div class="text-center d-lg-grid justify-content-center">
+            <div>
+              <img
+                src="/assets/temporarily-logo.png"
+                class="img-fluid"
+                width="100"
+                alt=""
+              />
+            </div>
+            <br />
+            <div>
+              <img
+                src="/assets/temporarily-logo-text.png"
+                class="img-fluid"
+                width="200"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- this is navigation menu mobile view section -->
     <nav class="navbar navbar-expand-lg fixed-top z-2 bg-color mobile-view">
       <div class="container">
@@ -177,7 +179,12 @@
     <!-- this is head section -->
     <section class="sc-section header-section">
       <div class="container p-4">
-        <div class="sub-label">
+        <div
+          class="sub-label"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <h1>Meetings</h1>
           <h1>&</h1>
           <h1>Events</h1>
@@ -192,7 +199,12 @@
           <span>MEETING ROOM</span>
           <h1>A warm, exquisite, practical and urban space.</h1>
         </div>
-        <div class="wrapper">
+        <div
+          class="wrapper"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <div class="image">
             <img
               src="/assets/event/capacity-of-the-room.jpg"
@@ -235,7 +247,12 @@
           </div>
         </div>
         <div class="wrapper">
-          <div class="image">
+          <div
+            class="image"
+            data-aos="zoom-in-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             <img src="/assets/event/environment.jpg" class="img-fluid" alt="" />
           </div>
         </div>
@@ -249,10 +266,22 @@
           <div class="block-box1"></div>
           <div class="block-box2"></div>
           <div class="wrapper">
-            <div class="image">
+            <div
+              class="image"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="250"
+            >
               <img src="/assets/event/coffee.jpg" class="simg-fluid" alt="" />
             </div>
-            <div class="details">
+            <div
+              class="details"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="250"
+            >
               <h1>
                 Coffee breaks: <br />
                 That precious moment <br />
@@ -486,7 +515,7 @@
     <script src="/js/plugins/jquery.min.js"></script>
     <script src="/js/plugins/scroll.js"></script>
     <script src="/js/components/loder.js"></script>
-    <script src="/js/components/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/components/aos.js"></script>
   </body>
 </html>

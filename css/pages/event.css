@@ -200,6 +200,7 @@
 @media screen and (max-width: 575px) {
   /* this is header section */
   .header-section {
+    overflow: hidden;
     .sub-label {
       h1 {
         font-size: 50px;
@@ -209,6 +210,7 @@
 
   /* this is featture content section */
   .featureContent-section {
+    overflow: hidden;
     .wrapper {
       display: flex;
       flex-direction: column;
@@ -228,6 +230,7 @@
 
   /* this is special offer section */
   .coffeeContent-section {
+    overflow: hidden;
     position: relative;
 
     .content {
@@ -275,6 +278,7 @@
 
   /* this is request proposal section */
   .requestProposal-section {
+    overflow: hidden;
     .wrapper {
       display: flex;
       flex-direction: column;
